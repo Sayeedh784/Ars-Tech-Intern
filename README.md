@@ -1,2 +1,2 @@
-# Foodeology!
-[foodeology](https://user-images.githubusercontent.com/79363939/168162059-18b6e4d2-ae7f-4eab-bd03-11d73dd83471.png)
+# Foodeology
+![foodeology](https://user-images.githubusercontent.com/79363939/168162348-5831175d-f2ca-465a-ab51-317da5b9bfe9.png)
