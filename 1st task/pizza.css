@@ -111,10 +111,7 @@ body{
   padding: 10px;
   border-radius: 10px;
 }
-.c18{
-  border: 1px solid rgb(227, 236, 233) ;
-  padding: 10px;
-  border-radius: 10px;
+.c17:hover{
   background-color: #ff6565;
   color: white;
 }
