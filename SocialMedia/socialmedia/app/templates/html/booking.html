@@ -1,0 +1,3104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=head.0">
+    <meta name="description" content="friendbook">
+    <meta name="keywords" content="friendbook">
+    <meta name="author" content="friendbook">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon" />
+    <title>Friendbook</title>
+
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Theme css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+     <script type="text/javascript"  src="js/jquery-2.head.min.js"></script>
+     <script  type="text/javascript" src="js/bootstrap.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+</head>
+
+<body>
+
+
+    <!-- loader start -->
+    <div class="pre-loader">
+        <header>
+            <div class="mobile-fix-menu"></div>
+            <div class="container-fluid custom-padding">
+                <div class="header-section">
+                    <div class="header-left">
+                        <div class="brand-logo">
+                            <a href="index.html">
+                                <img src="../assets/images/icon/logo.png" alt="logo" class="img-fluid blur-up lazyload">
+                            </a>
+                        </div>
+                        <div class="search-box">
+                            <i data-feather="search" class="icon iw-16 icon-light"></i>
+                            <input type="text" class="form-control" placeholder="find friends...">
+                        </div>
+                        <ul class="btn-group">
+                            <!-- home -->
+                            <li class="header-btn home-btn">
+                                <a class="main-link" href="index.html">
+                                    <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="home"></i>
+                                </a>
+                            </li>
+                            <!-- add friend -->
+                            <li class="header-btn custom-dropdown dropdown-lg add-friend">
+                                <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="user-plus"></i>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-header">
+                                        <span>friend request</span>
+                                        <div class="mobile-close">
+                                            <h5>close</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-content">
+                                        <ul class="friend-list">
+                                            <li>
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/5.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">Paige Turner</h5>
+                                                            <h6> 1 mutual friend</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="action-btns">
+                                                    <button type="button" class="btn btn-solid">confirm</button>
+                                                    <button type="button" class="btn btn-outline ms-1">delete</button>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/6.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">Paige Turner</h5>
+                                                            <h6> 1 mutual friend</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="action-btns">
+                                                    <button type="button" class="btn btn-solid">confirm</button>
+                                                    <button type="button" class="btn btn-outline ms-1">delete</button>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/7.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">Paige Turner</h5>
+                                                            <h6> 1 mutual friend</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="action-btns">
+                                                    <button type="button" class="btn btn-solid">confirm</button>
+                                                    <button type="button" class="btn btn-outline ms-1">delete</button>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/2.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">Paige Turner</h5>
+                                                            <h6> 1 mutual friend</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="action-btns">
+                                                    <button type="button" class="btn btn-solid">confirm</button>
+                                                    <button type="button" class="btn btn-outline ms-1">delete</button>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-right">
+                        <div class="post-stats">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <h3>326</h3>
+                                        <span>total posts</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <h3>2456</h3>
+                                        <span>total friends</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="option-list">
+                            <!-- message -->
+                            <li class="header-btn custom-dropdown dropdown-lg btn-group message-btn">
+                                <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="icon-light stroke-width-3 iw-16 ih-16"
+                                        data-feather="message-circle"></i><span class="count success">2</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-header">
+                                        <div class="left-title">
+                                            <span>messages</span>
+                                        </div>
+                                        <div class="right-option">
+                                            <ul>
+                                                <li>
+                                                    <a href="messanger.html">
+                                                        <i class="iw-16 ih-16" data-feather="maximize"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="iw-16 ih-16" data-feather="edit"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="iw-16 ih-16" data-feather="more-horizontal"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mobile-close">
+                                            <h5>close</h5>
+                                        </div>
+                                    </div>
+                                    <div class="search-bar input-style icon-left">
+                                        <i class="iw-16 ih-16 icon" data-feather="search"></i>
+                                        <input type="text" class="form-control" placeholder="search messages...">
+                                    </div>
+                                    <div class="dropdown-content">
+                                        <ul class="friend-list">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="media">
+                                                        <img src="../assets/images/user-sm/1.jpg" alt="user">
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0">Paige Turner</h5>
+                                                                <h6>Are you there ?</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="active-status">
+                                                        <span class="active"></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="media">
+                                                        <img src="../assets/images/user-sm/2.jpg" alt="user">
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0">Paige Turner</h5>
+                                                                <h6>Are you there ?</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="media">
+                                                        <img src="../assets/images/user-sm/3.jpg" alt="user">
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0">Bob Frapples</h5>
+                                                                <h6>hello ! how are you ?</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="active-status">
+                                                        <span class="offline"></span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- dark/light -->
+                            <li class="header-btn custom-dropdown">
+                                <a class="main-link" href="javascript:void(0)">
+                                    <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="moon"></i>
+                                </a>
+                                <a class="main-link d-none" href="javascript:void(0)">
+                                    <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="sun"></i>
+                                </a>
+                            </li>
+                            <!-- mobile app button -->
+                            <li class="header-btn custom-dropdown d-md-none d-block app-btn">
+                                <a class="main-link" href="javascript:void(0)">
+                                    <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="grid"></i>
+                                </a>
+                                <div class="overlay-bg app-overlay"></div>
+                                <div class="app-box">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="app-icon">
+                                                <a href="index.html">
+                                                    <div class="icon">
+                                                        <i data-feather="file" class="bar-icon"></i>
+                                                    </div>
+                                                    <h5>Newsfeed</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="app-icon">
+                                                <a href="single-page.html">
+                                                    <div class="icon">
+                                                        <i data-feather="star" class="bar-icon"></i>
+                                                    </div>
+                                                    <h5>favourite</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="app-icon">
+                                                <a href="#">
+                                                    <div class="icon">
+                                                        <i data-feather="users" class="bar-icon"></i>
+                                                    </div>
+                                                    <h5>group</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="app-icon">
+                                                <a href="music.html">
+                                                    <div class="icon">
+                                                        <i data-feather="headphones" class="bar-icon"></i>
+                                                    </div>
+                                                    <h5>music</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="app-icon">
+                                                <a href="weather.html">
+                                                    <div class="icon">
+                                                        <i data-feather="cloud" class="bar-icon"></i>
+                                                    </div>
+                                                    <h5>weather</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="app-icon">
+                                                <a href="event.html">
+                                                    <div class="icon">
+                                                        <i data-feather="calendar" class="bar-icon"></i>
+                                                    </div>
+                                                    <h5>calender</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="app-icon">
+                                                <a href="#">
+                                                    <div class="icon">
+                                                        <svg class="bar-icon">
+                                                            <use class="fill-color"
+                                                                xlink:href="../assets/svg/icons.svg#cake"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <h5>event</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="app-icon">
+                                                <a href="games.html">
+                                                    <div class="icon">
+                                                        <svg class="bar-icon">
+                                                            <use class="fill-color"
+                                                                xlink:href="../assets/svg/icons.svg#game-controller">
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                    <h5>games</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- notification -->
+                            <li class="header-btn custom-dropdown dropdown-lg btn-group notification-btn">
+                                <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="bell"></i><span
+                                        class="count warning">2</span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-header">
+                                        <span>Notification</span>
+                                        <div class="mobile-close">
+                                            <h5>close</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-content">
+                                        <ul class="friend-list">
+                                            <li class="d-block">
+                                                <div>
+                                                    <div class="media">
+                                                        <img src="../assets/images/user-sm/5.jpg" alt="user">
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0"><span>Paige Turner</span> send you a
+                                                                    friend request
+                                                                </h5>
+                                                                <h6> 1 mutual friend</h6>
+                                                                <div class="action-btns">
+                                                                    <button type="button" class="btn btn-solid"><i
+                                                                            data-feather="check"></i></button>
+                                                                    <button type="button" class="btn btn-solid ms-1"><i
+                                                                            data-feather="x"></i></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="media">
+                                                        <img src="../assets/images/user-sm/6.jpg" alt="user">
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0"><span>Bob Frapples</span> add their
+                                                                    stories
+                                                                </h5>
+                                                                <h6>8 hour ago</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="media">
+                                                        <img src="../assets/images/user-sm/7.jpg" alt="user">
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0"><span>Josephin water</span> have
+                                                                    birthday today
+                                                                </h5>
+                                                                <h6>sun at 5.55 AM</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="media">
+                                                        <img src="../assets/images/user-sm/2.jpg" alt="user">
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0"><span>Petey Cruiser</span> added a new
+                                                                    photo
+                                                                </h5>
+                                                                <h6>sun at 5.40 AM</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- profile -->
+                            <li class="header-btn custom-dropdown profile-btn btn-group">
+                                <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="icon-light stroke-width-3 d-sm-none d-block iw-16 ih-16"
+                                        data-feather="user"></i>
+                                    <div class="media d-none d-sm-flex">
+                                        <div class="user-img">
+                                            <img src="../assets/images/user-sm/1.jpg"
+                                                class="img-fluid blur-up lazyload bg-img" alt="user">
+                                            <span class="available-stats online"></span>
+                                        </div>
+                                        <div class="media-body d-none d-md-block">
+                                            <h4>Josephin water</h4>
+                                            <span>active now</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="dropdown-header">
+                                        <span>profile</span>
+                                        <div class="mobile-close">
+                                            <h5>close</h5>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-content">
+                                        <ul class="friend-list">
+                                            <li>
+                                                <a href="profile.html">
+                                                    <div class="media">
+                                                        <i data-feather="user"></i>
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0">Profile</h5>
+                                                                <h6>Profile preview & settings</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="settings.html">
+                                                    <div class="media">
+                                                        <i data-feather="settings"></i>
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0">setting & privacy</h5>
+                                                                <h6>all settings & privacy</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="help-support.html">
+                                                    <div class="media">
+                                                        <i data-feather="help-circle"></i>
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0">help & support</h5>
+                                                                <h6>browse help here</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="login.html">
+                                                    <div class="media">
+                                                        <i data-feather="log-out"></i>
+                                                        <div class="media-body">
+                                                            <div>
+                                                                <h5 class="mt-0">log out</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="page-body container-fluid custom-padding">
+
+            <!-- sidebar panel start -->
+            <div class="sidebar-panel">
+                <div class="main-icon">
+                    <a href="#">
+                        <i data-feather="grid" class="bar-icon"></i>
+                    </a>
+                </div>
+                <ul class="sidebar-icon">
+                    <li>
+                        <a href="index.html" class="tippy" title="Newsfeed">
+                            <i data-feather="file" class="bar-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="single-page.html" class="tippy" title="Favourite">
+                            <i data-feather="star" class="bar-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="tippy" title="Groups">
+                            <i data-feather="users" class="bar-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="music.html" class="tippy" title="Music">
+                            <i data-feather="headphones" class="bar-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="weather.html" class="tippy" title="Weather">
+                            <i data-feather="cloud" class="bar-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="event.html" class="tippy" title="Event & Calender">
+                            <i data-feather="calendar" class="bar-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="birthday.html" class="tippy" title="Birthday">
+                            <svg class="bar-icon fill-white">
+                                <use xlink:href="../assets/svg/icons.svg#cake"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="inner-list">
+                        <a href="games.html" class="tippy" title="Games">
+                            <svg class="bar-icon fill-white">
+                                <use xlink:href="../assets/svg/icons.svg#game-controller"></use>
+                            </svg>
+                        </a>
+                        <span class="count">2</span>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="../assets/images/icon/game/1.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../assets/images/icon/game/2.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../assets/images/icon/game/3.jpg" alt=""></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="main-icon">
+                    <a href="#">
+                        <i data-feather="power" class="bar-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- sidebar panel end -->
+
+
+            <div class="page-center">
+
+                <!-- stroy section start -->
+                <div class="story-section ratio_115">
+                    <div class="slide-8 no-arrow default-space">
+                        <div>
+                            <div class="story-box">
+                                <div class="story-bg bg-size">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story-box">
+                                <div class="story-bg bg-size">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story-box">
+                                <div class="story-bg bg-size">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story-box">
+                                <div class="story-bg bg-size">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story-box">
+                                <div class="story-bg bg-size">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story-box">
+                                <div class="story-bg bg-size">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story-box">
+                                <div class="story-bg bg-size">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="story-box">
+                                <div class="story-bg bg-size">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- stroy section end -->
+
+                <div class="container-fluid section-t-space px-0 layout-default">
+                    <div class="page-content">
+                        <div class="content-left">
+                            <!-- profile box -->
+                            <div class="profile-box">
+                                <div class="profile-content">
+                                    <a href="profile.html" class="image-section">
+                                        <div class="profile-img">
+                                            <div class="bg-loader"></div>
+                                        </div>
+                                    </a>
+                                    <div class="profile-detail">
+                                        <h2></h2>
+                                        <h5></h5>
+                                        <div class="description">
+                                            <p></p>
+                                            <p></p>
+                                        </div>
+                                        <div class="counter-stats">
+                                            <span></span>
+                                        </div>
+                                        <div class="ldr-btn btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- suggestion box -->
+                            <div class="suggestion-box section-t-space">
+                                <div class="card-title">
+                                    <h3></h3>
+                                </div>
+                                <div class="suggestion-content ratio_115">
+                                    <div class="slide-2 no-arrow default-space">
+                                        <div>
+                                            <div class="story-box">
+                                                <div class="story-bg bg-size">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="story-box">
+                                                <div class="story-bg bg-size">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- like page -->
+                            <div class="page-list section-t-space">
+                                <div class="card-title">
+                                    <h3></h3>
+                                </div>
+                                <div class="list-content">
+                                    <ul>
+                                        <li>
+                                            <div class="media">
+                                                <div class="img-part">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4></h4>
+                                                    <h6></h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <div class="img-part">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4></h4>
+                                                    <h6></h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <div class="img-part">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4></h4>
+                                                    <h6></h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <div class="img-part">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4></h4>
+                                                    <h6></h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <div class="img-part">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4></h4>
+                                                    <h6></h6>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-center">
+                            <!-- create post -->
+                            <div class="create-post">
+                                <div class="static-section">
+                                    <div class="card-title">
+                                        <h3></h3>
+                                    </div>
+                                    <div class="search-input input-style icon-right">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="create-bg">
+                                    <div class="bg-post">
+                                        <div class="input-sec">
+                                            <input type="text" class="form-control enable"
+                                                placeholder="write something here.." />
+                                            <div class="close-icon">
+                                                <a href="javascript:void(0)">
+                                                    <i class="iw-20 ih-20" data-feather="x"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gradient-bg">
+                                    </div>
+                                </div>
+                                <ul class="create-btm-option">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                                <div class="post-btn">
+                                    <button disabled="disabled" class="Disable">post</button>
+                                </div>
+                            </div>
+                            <div class="overlay-bg"></div>
+                            <div class="post-panel section-t-space">
+                                <div class="post-wrapper col-grid-box">
+                                    <div class="post-title">
+                                        <div class="profile">
+                                            <div class="media">
+                                                <div class="user-img">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5></h5>
+                                                    <h6></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-details ratio2_1">
+                                        <div class="img-wrapper bg-size">
+                                        </div>
+                                        <div class="detail-box">
+                                            <h3></h3>
+                                            <h5 class="tag"></h5>
+                                            <div class="ldr-p">
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="bookmark favourite-btn">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-wrapper col-grid-box section-t-space">
+                                    <div class="post-title">
+                                        <div class="profile">
+                                            <div class="media">
+                                                <div class="user-img">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5></h5>
+                                                    <h6></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-details ratio2_1">
+                                        <div class="img-wrapper bg-size">
+                                        </div>
+                                        <div class="detail-box">
+                                            <h3></h3>
+                                            <h5 class="tag"></h5>
+                                            <div class="ldr-p">
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="bookmark favourite-btn">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <!-- birthday reminder -->
+                            <div class="birthday-section bg-size">
+                                <div class="birthday-top">
+                                    <div class="title">
+                                        <h3></h3>
+                                        <h6></h6>
+                                    </div>
+                                </div>
+                                <div class="birthday-content">
+                                    <div class="image-section">
+                                        <div class="icon">
+                                        </div>
+                                        <div class="center-profile">
+                                        </div>
+                                        <div class="icon">
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3></h3>
+                                        <h6></h6>
+                                        <div class="ldr-p">
+                                            <p></p>
+                                            <p></p>
+                                        </div>
+                                        <form>
+                                            <input type="text" class="form-control">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- gallery section -->
+                            <div class="gallery-section section-t-space">
+                                <div class="gallery-top">
+                                    <div class="card-title">
+                                        <h3></h3>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section ratio_square">
+                                    <div class="container-fluid p-0">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="overlay">
+                                                    <div class="portfolio-image bg-size">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="overlay">
+                                                    <div class="portfolio-image bg-size">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="overlay">
+                                                    <div class="portfolio-image bg-size">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 row m-0">
+                                                <div class="col-12 pt-cls p-0">
+                                                    <div class="overlay">
+                                                        <div class="portfolio-image bg-size">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 pt-cls p-0">
+                                                    <div class="overlay">
+                                                        <div class="portfolio-image bg-size">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-8 pt-cls">
+                                                <div class="overlay">
+                                                    <div class="portfolio-image bg-size">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- suggestion box -->
+                            <div class="suggestion-box section-t-space">
+                                <div class="card-title">
+                                    <h3></h3>
+                                </div>
+                                <div class="suggestion-content ratio_115">
+                                    <div class="slide-2 no-arrow default-space">
+                                        <div>
+                                            <div class="story-box">
+                                                <div class="story-bg bg-size">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="story-box">
+                                                <div class="story-bg bg-size">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- conversation panel start -->
+            <div class="conversation-panel xl-light">
+                <div class="panel-header">
+                    <h2></h2>
+                    <h5></h5>
+                </div>
+                <div class="search-bar">
+                    <div class="lg-search">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="xs-search">
+                        <div class="icon-search">
+                            <i data-feather="search" class="icon-dark iw-16"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-section">
+                    <div class="header-section">
+                        <h5></h5>
+                        <div class="down-arrow">
+                        </div>
+                    </div>
+                    <div class="friend-list collapse show">
+                        <ul>
+                            <li class="friend-box user1">
+                                <div class="media">
+                                    <a class="user-img">
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name"></h5>
+                                        <h6></h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="friend-box user2">
+                                <div class="media">
+                                    <a class="user-img">
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name"></h5>
+                                        <h6></h6>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="friend-section">
+                    <div class="header-section">
+                        <h5></h5>
+                        <div class="down-arrow">
+                        </div>
+                    </div>
+                    <div class="friend-list collapse show">
+                        <ul>
+                            <li class="friend-box user3">
+                                <div class="media">
+                                    <a class="user-img">
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name"></h5>
+                                        <h6></h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="friend-box user4">
+                                <div class="media">
+                                    <a class="user-img">
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name"></h5>
+                                        <h6></h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="friend-box user5">
+                                <div class="media">
+                                    <a class="user-img">
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name"></h5>
+                                        <h6></h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="friend-box user6">
+                                <div class="media">
+                                    <a class="user-img">
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name"></h5>
+                                        <h6></h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="friend-box user7">
+                                <div class="media">
+                                    <a class="user-img">
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name"></h5>
+                                        <h6></h6>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- conversation panel end -->
+
+        </div>
+    </div>
+    <!-- loader end -->
+
+
+    <!-- header start -->
+    <header>
+        <div class="mobile-fix-menu"></div>
+        <div class="container-fluid custom-padding">
+            <div class="header-section">
+                <div class="header-left">
+                    <div class="brand-logo">
+                        <a href="index.html">
+                            <img src="../assets/images/icon/logo.png" alt="logo" class="img-fluid blur-up lazyload">
+                        </a>
+                    </div>
+                    <div class="search-box">
+                        <i data-feather="search" class="icon iw-16 icon-light"></i>
+                        <input type="text" class="form-control search-type" placeholder="find friends...">
+                        <div class="icon-close">
+                            <i data-feather="x" class="iw-16 icon-light"></i>
+                        </div>
+                        <div class="search-suggestion">
+                            <span class="recent">recent search</span>
+                            <ul class="friend-list">
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/9.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/12.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/15.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="btn-group">
+                        <!-- home -->
+                        <li class="header-btn home-btn">
+                            <a class="main-link" href="index.html">
+                                <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="home"></i>
+                            </a>
+                        </li>
+                        <!-- add friend -->
+                        <li class="header-btn custom-dropdown dropdown-lg add-friend">
+                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="user-plus"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-header">
+                                    <span>friend request</span>
+                                    <div class="mobile-close">
+                                        <h5>close</h5>
+                                    </div>
+                                </div>
+                                <div class="dropdown-content">
+                                    <ul class="friend-list">
+                                        <li>
+                                            <div class="media">
+                                                <img src="../assets/images/user-sm/5.jpg" alt="user">
+                                                <div class="media-body">
+                                                    <div>
+                                                        <h5 class="mt-0">Paige Turner</h5>
+                                                        <h6> 1 mutual friend</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="action-btns">
+                                                <button type="button" class="btn btn-solid">confirm</button>
+                                                <button type="button" class="btn btn-outline ms-1">delete</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img src="../assets/images/user-sm/6.jpg" alt="user">
+                                                <div class="media-body">
+                                                    <div>
+                                                        <h5 class="mt-0">Paige Turner</h5>
+                                                        <h6> 1 mutual friend</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="action-btns">
+                                                <button type="button" class="btn btn-solid">confirm</button>
+                                                <button type="button" class="btn btn-outline ms-1">delete</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img src="../assets/images/user-sm/7.jpg" alt="user">
+                                                <div class="media-body">
+                                                    <div>
+                                                        <h5 class="mt-0">Paige Turner</h5>
+                                                        <h6> 1 mutual friend</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="action-btns">
+                                                <button type="button" class="btn btn-solid">confirm</button>
+                                                <button type="button" class="btn btn-outline ms-1">delete</button>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img src="../assets/images/user-sm/2.jpg" alt="user">
+                                                <div class="media-body">
+                                                    <div>
+                                                        <h5 class="mt-0">Paige Turner</h5>
+                                                        <h6> 1 mutual friend</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="action-btns">
+                                                <button type="button" class="btn btn-solid">confirm</button>
+                                                <button type="button" class="btn btn-outline ms-1">delete</button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <div class="post-stats">
+                        <ul>
+                            <li>
+                                <h3>326</h3>
+                                <span>total posts</span>
+                            </li>
+                            <li>
+                                <h3>2456</h3>
+                                <span>total friends</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="option-list">
+                        <!-- message -->
+                        <li class="header-btn custom-dropdown dropdown-lg btn-group message-btn">
+                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="message-circle"></i><span
+                                    class="count success">2</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-header">
+                                    <div class="left-title">
+                                        <span>messages</span>
+                                    </div>
+                                    <div class="right-option">
+                                        <ul>
+                                            <li>
+                                                <a href="messanger.html">
+                                                    <i class="iw-16 ih-16" data-feather="maximize"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="iw-16 ih-16" data-feather="edit"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="iw-16 ih-16" data-feather="more-horizontal"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="mobile-close">
+                                        <h5>close</h5>
+                                    </div>
+                                </div>
+                                <div class="search-bar input-style icon-left">
+                                    <i class="iw-16 ih-16 icon" data-feather="search"></i>
+                                    <input type="text" class="form-control" placeholder="search messages...">
+                                </div>
+                                <div class="dropdown-content">
+                                    <ul class="friend-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/1.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">Paige Turner</h5>
+                                                            <h6>Are you there ?</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="active-status">
+                                                    <span class="active"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/2.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">Paige Turner</h5>
+                                                            <h6>Are you there ?</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/3.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">Bob Frapples</h5>
+                                                            <h6>hello ! how are you ?</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="active-status">
+                                                    <span class="offline"></span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- dark/light -->
+                        <li class="header-btn custom-dropdown">
+                            <a id="dark" class="main-link" href="javascript:void(0)">
+                                <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="moon"></i>
+                            </a>
+                            <a id="light" class="main-link d-none" href="javascript:void(0)">
+                                <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="sun"></i>
+                            </a>
+                        </li>
+                        <!-- mobile app button -->
+                        <li class="header-btn custom-dropdown d-md-none d-block app-btn">
+                            <a class="main-link" href="javascript:void(0)">
+                                <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="grid"></i>
+                            </a>
+                            <div class="overlay-bg app-overlay"></div>
+                            <div class="app-box">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="app-icon">
+                                            <a href="index.html">
+                                                <div class="icon">
+                                                    <i data-feather="file" class="bar-icon"></i>
+                                                </div>
+                                                <h5>Newsfeed</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="app-icon">
+                                            <a href="single-page.html">
+                                                <div class="icon">
+                                                    <i data-feather="star" class="bar-icon"></i>
+                                                </div>
+                                                <h5>favourite</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="app-icon">
+                                            <a href="#">
+                                                <div class="icon">
+                                                    <i data-feather="users" class="bar-icon"></i>
+                                                </div>
+                                                <h5>group</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="app-icon">
+                                            <a href="music.html">
+                                                <div class="icon">
+                                                    <i data-feather="headphones" class="bar-icon"></i>
+                                                </div>
+                                                <h5>music</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="app-icon">
+                                            <a href="weather.html">
+                                                <div class="icon">
+                                                    <i data-feather="cloud" class="bar-icon"></i>
+                                                </div>
+                                                <h5>weather</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="app-icon">
+                                            <a href="event.html">
+                                                <div class="icon">
+                                                    <i data-feather="calendar" class="bar-icon"></i>
+                                                </div>
+                                                <h5>calender</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="app-icon">
+                                            <a href="#">
+                                                <div class="icon">
+                                                    <svg class="bar-icon">
+                                                        <use class="fill-color"
+                                                            xlink:href="../assets/svg/icons.svg#cake"></use>
+                                                    </svg>
+                                                </div>
+                                                <h5>event</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="app-icon">
+                                            <a href="games.html">
+                                                <div class="icon">
+                                                    <svg class="bar-icon">
+                                                        <use class="fill-color"
+                                                            xlink:href="../assets/svg/icons.svg#game-controller">
+                                                        </use>
+                                                    </svg>
+                                                </div>
+                                                <h5>games</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- notification -->
+                        <li class="header-btn custom-dropdown dropdown-lg btn-group notification-btn">
+                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="bell"></i><span
+                                    class="count warning">2</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-header">
+                                    <span>Notification</span>
+                                    <div class="mobile-close">
+                                        <h5>close</h5>
+                                    </div>
+                                </div>
+                                <div class="dropdown-content">
+                                    <ul class="friend-list">
+                                        <li class="d-block">
+                                            <div>
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/5.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0"><span>Paige Turner</span> send you a friend
+                                                                request
+                                                            </h5>
+                                                            <h6> 1 mutual friend</h6>
+                                                            <div class="action-btns">
+                                                                <button type="button" class="btn btn-solid"><i
+                                                                        data-feather="check"></i></button>
+                                                                <button type="button" class="btn btn-solid ms-1"><i
+                                                                        data-feather="x"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/6.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0"><span>Bob Frapples</span> add their stories
+                                                            </h5>
+                                                            <h6>8 hour ago</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/7.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0"><span>Josephin water</span> have birthday
+                                                                today
+                                                            </h5>
+                                                            <h6>sun at 5.55 AM</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="media">
+                                                    <img src="../assets/images/user-sm/2.jpg" alt="user">
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0"><span>Petey Cruiser</span> added a new
+                                                                photo
+                                                            </h5>
+                                                            <h6>sun at 5.40 AM</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- profile -->
+                        <li class="header-btn custom-dropdown profile-btn btn-group">
+                            <a class="main-link" href="javascript:void(0)" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-light stroke-width-3 d-sm-none d-block iw-16 ih-16"
+                                    data-feather="user"></i>
+                                <div class="media d-none d-sm-flex">
+                                    <div class="user-img">
+                                        <img src="../assets/images/user-sm/1.jpg"
+                                            class="img-fluid blur-up lazyload bg-img" alt="user">
+                                        <span class="available-stats online"></span>
+                                    </div>
+                                    <div class="media-body d-none d-md-block">
+                                        <h4>Josephin water</h4>
+                                        <span>active now</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-header">
+                                    <span>profile</span>
+                                    <div class="mobile-close">
+                                        <h5>close</h5>
+                                    </div>
+                                </div>
+                                <div class="dropdown-content">
+                                    <ul class="friend-list">
+                                        <li>
+                                            <a href="profile.html">
+                                                <div class="media">
+                                                    <i data-feather="user"></i>
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">Profile</h5>
+                                                            <h6>Profile preview & settings</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="settings.html">
+                                                <div class="media">
+                                                    <i data-feather="settings"></i>
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">setting & privacy</h5>
+                                                            <h6>all settings & privacy</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="help-support.html">
+                                                <div class="media">
+                                                    <i data-feather="help-circle"></i>
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">help & support</h5>
+                                                            <h6>browse help here</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="login.html">
+                                                <div class="media">
+                                                    <i data-feather="log-out"></i>
+                                                    <div class="media-body">
+                                                        <div>
+                                                            <h5 class="mt-0">log out</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- page body start -->
+    <div class="page-body container-fluid custom-padding">
+
+        <!-- sidebar panel start -->
+        <div class="sidebar-panel">
+            <div class="main-icon">
+                <a href="#">
+                    <i data-feather="grid" class="bar-icon"></i>
+                </a>
+            </div>
+            <ul class="sidebar-icon">
+                <li>
+                    <a href="index.html">
+                        <i data-feather="file" class="bar-icon"></i>
+                        <div class="tooltip-cls">
+                            <span>newsfeed</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="single-page.html">
+                        <i data-feather="star" class="bar-icon"></i>
+                        <div class="tooltip-cls">
+                            <span>Favourite</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i data-feather="users" class="bar-icon"></i>
+                        <div class="tooltip-cls">
+                            <span>Groups</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="music.html">
+                        <i data-feather="headphones" class="bar-icon"></i>
+                        <div class="tooltip-cls">
+                            <span>Music</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="weather.html">
+                        <i data-feather="cloud" class="bar-icon"></i>
+                        <div class="tooltip-cls">
+                            <span>Weather</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="event.html">
+                        <i data-feather="calendar" class="bar-icon"></i>
+                        <div class="tooltip-cls">
+                            <span>Event</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="birthday.html">
+                        <svg class="bar-icon fill-white">
+                            <use xlink:href="../assets/svg/icons.svg#cake"></use>
+                        </svg>
+                        <div class="tooltip-cls">
+                            <span>Birthday</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="inner-list">
+                    <a href="games.html">
+                        <svg class="bar-icon fill-white">
+                            <use xlink:href="../assets/svg/icons.svg#game-controller"></use>
+                        </svg>
+                        <div class="tooltip-cls">
+                            <span>Games</span>
+                        </div>
+                    </a>
+                    <span class="count">2</span>
+                    <ul class="vertical-slide-3 no-arrow">
+                        <li>
+                            <a href="#"><img src="../assets/images/icon/game/1.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../assets/images/icon/game/2.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../assets/images/icon/game/3.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../assets/images/icon/game/4.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="main-icon">
+                <a href="#">
+                    <i data-feather="power" class="bar-icon"></i>
+                </a>
+            </div>
+        </div>
+        <!-- sidebar panel end -->
+
+
+        <div class="page-center">
+
+           <!--here all bookingt-->
+            <section id="center">
+ <div class="center_m clearfix">
+   <div class="container">
+  <div class="row">
+   <div class="col-sm-12 center">
+        <div class="col-sm-8 center_left">
+		      <p>Shop here for the lowest hotel prices</p>
+			  <div class="center_top_left clearfix">
+
+		   <ul class="nav nav-tabs">
+   <li class="flight active"><a data-toggle="tab" href="#home"><i class="fa fa-home"></i><br />HOME</a></li>
+  <li class="holiday"><a data-toggle="tab" href="#menu1"><i class="fa fa-shopping-cart"></i><br />HOLIDAY RENTALS</a></li>
+  <li class="things"><a data-toggle="tab" href="#menu2"><i class="fa fa-bank"></i><br />THINGS TO DO</a></li>
+   <li class="resto"><a data-toggle="tab" href="#menu3"><i class="fa fa-resistance"></i><br />RESTOURANTS</a></li>
+    <li class="flight"><a data-toggle="tab" href="#menu4"><i class="fa fa-plane"></i><br />FLIGHTS</a></li>
+</ul>
+
+<div class="tab-content clearfix">
+  <div id="home" class="tab-pane fade clearfix active in">
+     <div class="click clearfix">
+      <div class="col-sm-12 center_top_1 clearfix">
+	   <div class="col-sm-6 center_top_2">
+	    <div class="input-group" data-validate="email">
+						<input type="text" class="form-control" name="validate-email" id="validate-email" placeholder="Enter destination or hotel name" required="">
+
+					</div>
+	   </div>
+	   <div class="col-sm-3 center_top_3">
+	    <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option>dd/mm/yyyy</option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>1
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+
+            </div>
+	   </div>
+	   <div class="col-sm-3 center_top_3">
+	    <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option>dd/mm/yyyy</option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+
+            </div>
+	   </div>
+	  </div>
+	  <div class="col-sm-12 center_middle clearfix">
+	   <div class="col-sm-3 center_middle_1">
+	    <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">1 rooms <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+		 </div>
+       <div class="col-sm-3 center_middle_2">
+	    <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">2 adults <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+	   </div>
+	   <div class="col-sm-3 center_middle_3">
+	    <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">0 children <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+        <li><a href="#">Something else here</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+	   </div>
+	   <div class="col-sm-3 center_middle_4 clearfix">
+	    <a href="#">Find Hotels</a>
+	   </div>
+	   </div>
+   </div>
+  </div>
+  <div id="menu1" class="tab-pane fade clearfix">
+	 <div class="click clearfix">
+	  <div class="col-sm-12 rentals_top clearfix">
+	   <div class="col-sm-6 rentals_top_left">
+	    <div class="input-group" data-validate="email">
+						<input type="text" class="form-control" name="validate-email" id="validate-email" placeholder="Enter destination or hotel name" required="">
+
+					</div>
+	   </div>
+	   <div class="col-sm-3 rentals_top_middle">
+	    <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option>dd/mm/yyyy</option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+
+            </div>
+	   </div>
+	   <div class="col-sm-3 rentals_top_middle">
+	    <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option value="">dd/mm/yyyy</option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+
+            </div>
+	   </div>
+	   <div class="find text-right">
+	    <a href="#">Find Holiday Homes</a>
+	   </div>
+	  </div>
+   </div>
+  </div>
+  <div id="menu2" class="tab-pane fade clearfix">
+	 <div class="click clearfix">
+      <div class="col-sm-12 things_top">
+	   <div class="col-sm-7 things_top_1">
+	    <div class="input-group" data-validate="email">
+						<input type="text" class="form-control" name="validate-email" id="validate-email" placeholder="Enter destination or hotel name" required="">
+
+					</div>
+	   </div>
+	   <div class="col-sm-5 things_top_2">
+	    <a href="#">Find Things to Do</a>
+	   </div>
+	  </div>
+   </div>
+  </div>
+  <div id="menu3" class="tab-pane fade clearfix">
+	 <div class="click clearfix">
+      <div class="col-sm-12 things_top">
+	   <div class="col-sm-7 things_top_1">
+	    <div class="input-group" data-validate="email">
+						<input type="text" class="form-control" name="validate-email" id="validate-email" placeholder="City or Restourant name" required="">
+
+					</div>
+	   </div>
+	   <div class="col-sm-5 things_top_2">
+	    <a href="#">Find Restourant</a>
+	   </div>
+	  </div>
+   </div>
+  </div>
+  <div id="menu4" class="tab-pane fade clearfix">
+	 <div class="click clearfix">
+      <div class="col-sm-12 flight_top">
+	   <div class="col-sm-6 flight_top_left">
+	    <div class="input-group" data-validate="email">
+						<input type="text" class="form-control" name="validate-email" id="validate-email" placeholder="Lucknow, India-Amousi (LKO)" required="">
+
+					</div>
+	   </div>
+	   <div class="col-sm-6 flight_top_left">
+	    <div class="input-group" data-validate="email">
+						<input type="text" class="form-control" name="validate-email" id="validate-email" placeholder="Lucknow, India- Amousi(LKO)" required="">
+
+					</div>
+	   </div>
+	  </div>
+	  <div class="col-sm-12 flight_top_2">
+	   <div class="col-sm-3 flight_top_2_left">
+	    <div class="clearfix center_top_3">
+	    <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option>06/04/2016</option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+
+            </div>
+	   </div>
+	   </div>
+	   <div class="col-sm-3 flight_top_2_left">
+	    <div class="clearfix center_top_3">
+	    <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option>22/04/2016</option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+
+            </div>
+	   </div>
+	   </div>
+	   <div class="col-sm-3 flight_top_2_left">
+	    <div class="clearfix center_top_3">
+	    <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option>1 travler</option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+
+            </div>
+	   </div>
+	   </div>
+	   <div class="col-sm-3 flight_top_2_right">
+	    <a href="#">Find Flights</a>
+	   </div>
+	  </div>
+	  <div class="col-sm-12 flight_bottom">
+	   <div class="col-sm-6 flight_bottom_1">
+	    <div class="col-sm-2 flight_bottom_2">
+		 <a href="#"><input id="nonstopOnly" class="checkbox alt" type="checkbox" name="nonstop" tabindex="11" onfocus="HomeFFM.hideMetaCalendar();"></a>
+		</div>
+		<div class="col-sm-10 flight_bottom_3">
+		 <h5>Prefer nonstop</h5>
+		</div>
+	   </div>
+	   <div class="col-sm-6 flight_bottom_4 text-right">
+	    <a href="#">more option ></a>
+		<h6><a href="#">one-way, multi-city, etc</a></h6>
+	   </div>
+	  </div>
+   </div>
+  </div>
+</div>
+
+		</div>
+		<div class="col-sm-12 center_left_bottom">
+		 <div class="col-sm-8 center_left_bottom_1">
+		  <p>We check 200+ sites to help our travellers book the lowest prices</p>
+		 </div>
+		 <div class="col-sm-4 center_left_bottom_2">
+		  <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+		 </div>
+		</div>
+		</div>
+		<div class="col-sm-4 center_right">
+		 <div class="col-sm-12 center_right_1">
+		  <div class="clearfix center_right_3">
+		   <p><a href="#">"Heaven On Earth"</a></p>
+		   <h5><a href="#"><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i><i class="fa fa-dot-circle-o"></i><span>Review By Guapas</span></a></h5>
+		   <h6><a href="#">See all 42,422 reviews of Providenciales</a></h6>
+		  </div>
+		 </div>
+		</div>
+
+   </div>
+	</div>
+
+   </div>
+ </div>
+  </div>
+ </div>
+</section>
+
+
+        </div>
+
+        <!-- conversation panel start -->
+        <div class="conversation-panel xl-light">
+            <div class="panel-header">
+                <h2>friends</h2>
+                <h5>start new conversation</h5>
+                <div class="setting">
+                    <div class="setting-btn setting-dropdown">
+                        <div class="btn-group custom-dropdown dropdown-sm">
+                            <a href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="icon-theme stroke-width-3 icon iw-11 ih-11" data-feather="sun"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+                                <ul>
+                                    <li>
+                                        <a href=""><i class="icon-font-light iw-16 ih-16" data-feather="user"></i>see
+                                            all</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="icon-font-light iw-16 ih-16" data-feather="search"></i>find
+                                            friends</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                data-feather="settings"></i>settings</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar">
+                <div class="lg-search">
+                    <i data-feather="search" class="icon-theme icon iw-16"></i>
+                    <input type="text" class="form-control" placeholder="find friends...">
+                </div>
+                <div class="xs-search">
+                    <div class="icon-search">
+                        <i data-feather="search" class="icon-dark iw-16"></i>
+                    </div>
+                    <div class="lg-search">
+                        <i data-feather="search" class="icon-dark icon iw-16"></i>
+                        <input type="text" class="form-control" placeholder="find friends...">
+                        <div class="icon-close">
+                            <i data-feather="x" class="icon-dark iw-16"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="friend-section">
+                <div class="header-section">
+                    <a data-bs-toggle="collapse" href="#accordion" role="button" aria-expanded="true" class="">close
+                        friends
+                        <div class="down-arrow">
+                            <i data-feather="chevron-down" class="icon-theme iw-14 ih-14"></i>
+                        </div>
+                    </a>
+                </div>
+                <div id="accordion" class="friend-list collapse show">
+                    <ul>
+                        <li class="friend-box user1">
+                            <div class="media">
+                                <a class="popover-cls user-img" data-bs-toggle="popover" data-placement="bottom"
+                                    data-name="paige turner" data-img="../assets/images/user-sm/1.jpg">
+                                    <img src="../assets/images/user-sm/1.jpg" class="img-fluid blur-up lazyload bg-img"
+                                        alt="user">
+                                    <span class="available-stats"></span>
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="user-name">Paige Turner</h5>
+                                    <h6>alabma, USA</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="friend-box user2">
+                            <div class="media">
+                                <a class="popover-cls user-img" data-bs-toggle="popover" data-placement="bottom"
+                                    data-name="bob frapples" data-img="../assets/images/user-sm/2.jpg">
+                                    <img src="../assets/images/user-sm/2.jpg" class="img-fluid blur-up lazyload bg-img"
+                                        alt="user">
+                                    <span class="available-stats online"></span>
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="user-name">Bob Frapples</h5>
+                                    <h6>alabma, USA</h6>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="friend-section">
+                <div class="header-section">
+                    <a data-bs-toggle="collapse" href="#accordion1" role="button" aria-expanded="true" class="">
+                        recent chats
+                        <div class="down-arrow">
+                            <i data-feather="chevron-down" class="icon-theme iw-14 ih-14"></i>
+                        </div>
+                    </a>
+                </div>
+                <div id="accordion1" class="friend-list collapse show">
+                    <ul>
+                        <li class="friend-box user3">
+                            <div class="media">
+                                <a class="popover-cls user-img" data-bs-toggle="popover" data-placement="bottom"
+                                    data-name="josephine water" data-img="../assets/images/user-sm/3.jpg">
+                                    <img src="../assets/images/user-sm/3.jpg" class="img-fluid blur-up lazyload bg-img"
+                                        alt="user">
+                                    <span class="available-stats"></span>
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="user-name">Josephin water</h5>
+                                    <h6>alabma, USA</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="friend-box user4">
+                            <div class="media">
+                                <a class="popover-cls user-img" data-bs-toggle="popover" data-placement="bottom"
+                                    data-name="petey cruiser" data-img="../assets/images/user-sm/4.jpg">
+                                    <img src="../assets/images/user-sm/4.jpg" class="img-fluid blur-up lazyload bg-img"
+                                        alt="user">
+                                    <span class="available-stats offline"></span>
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="user-name">Petey Cruiser</h5>
+                                    <h6>alabma, USA</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="friend-box user5">
+                            <div class="media">
+                                <a class="popover-cls user-img" data-bs-toggle="popover" data-placement="right"
+                                    data-name="anna sthesia" data-img="../assets/images/user-sm/1.jpg">
+                                    <img src="../assets/images/user-sm/5.jpg" class="img-fluid blur-up lazyload bg-img"
+                                        alt="user">
+                                    <span class="available-stats online"></span>
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="user-name">Anna Sthesia</h5>
+                                    <h6>alabma, USA</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="friend-box user6">
+                            <div class="media">
+                                <a class="popover-cls user-img" data-bs-toggle="popover" data-placement="right"
+                                    data-name="paul molive" data-img="../assets/images/user-sm/6.jpg">
+                                    <img src="../assets/images/user-sm/6.jpg" class="img-fluid blur-up lazyload bg-img"
+                                        alt="user">
+                                    <span class="available-stats"></span>
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="user-name">Paul Molive</h5>
+                                    <h6>alabma, USA</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="friend-box user7">
+                            <div class="media">
+                                <a class="popover-cls user-img" data-bs-toggle="popover" data-placement="right"
+                                    data-name="anna mull" data-img="../assets/images/user-sm/7.jpg">
+                                    <img src="../assets/images/user-sm/7.jpg" class="img-fluid blur-up lazyload bg-img"
+                                        alt="user">
+                                    <span class="available-stats away"></span>
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="user-name">Anna Mull</h5>
+                                    <h6>alabma, USA</h6>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- conversation panel end -->
+
+    </div>
+    <!-- page body end -->
+
+
+
+    <!-- add post/story model end -->
+
+    <!-- theme setting -->
+    <div class="theme-settings">
+        <div class="rtl-btn">
+            <div class="theme-layout-version">RTL</div>
+        </div>
+        <div class="rtl-btn h-cls">
+            <div class="dark-button">Dark</div>
+        </div>
+        <div class="pages">
+            <a href="javascript:void(0)" onclick="openSetting()">
+                <div class="theme-setting-sidebar" id="setting-icon">
+                    <div>
+                        pages
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="setting_box" class="setting-box">
+        <a href="javascript:void(0)" class="overlay" onclick="closeSetting()"></a>
+        <div class="setting_box_body">
+            <div onclick="closeSetting()">
+                <div class="sidebar-back text-left"><i class="fa fa-angle-left pe-2" aria-hidden="true"></i> Back</div>
+            </div>
+            <div class="setting-body">
+                <div class="setting-title">
+                    <h4>Newsfeed Layout</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/1.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 1</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/2.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 2</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-2.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/3.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 3</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-3.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/4.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 4</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-4.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/5.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 5</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-5.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/6.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 6</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-6.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/7.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 7</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-7.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/8.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 8</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-8.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/9.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 9</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-9.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/10.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 10</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-10.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/11.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 11</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-11.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/12.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 12</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-12.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Profile Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/1.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>timeline</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/2.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>about</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-about.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/3.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>friends</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-friends.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/4.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>gallery</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-gallery.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/5.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>acitivity feed</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-activityfeed.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/6.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>tab</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-tab.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/7.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>friend profile</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile(friend).html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Favourite Page</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/1.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>page listing </h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('page-list.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/2.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>page home</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-page.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/3.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>about</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-about.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/4.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>review</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-reviews.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/5.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>gallery</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-gallery.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/6.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>tab</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('page-tab.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>other pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/events.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>event & calendar</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('event.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/birthday.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Birthday</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('birthday.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/weather.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>weather</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('weather.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/music.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Music</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('music.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/events.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>games</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('games.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/login.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>login </h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('login.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/register.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>register</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('register.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/help.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>help & support</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('help-support.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/messanger.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>messanger</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('messanger.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/setting.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>setting</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('settings.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/help.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>help article</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('help-article.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Company Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/home.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Home</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('company-home.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/about.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>About</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('about-us.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/blog.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Blog</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('blog.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/blog-details.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Blog details</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('blog-details.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/faq.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>FAQ</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('faq.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/career.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Career</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('career.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/career-details.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Career details</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('career-details.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/coming-soon.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>coming soon</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('coming-soon.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/404.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>404</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('404.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Element Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/typography.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>typography</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('typography.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/widget.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>sidebar widgets</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('sidebar-widgets.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/calendar.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>calender</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-event-calendar.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/map.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>maps</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-map.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/icons.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>icons</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('icons.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/modal.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>modal</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-modal.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/buttons.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>buttons</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-button.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy_btn">
+                    <a href="#" target="_blank" class="btn btn-block btn-solid ">purchase Friendbook now!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- theme setting -->
+
+
+    <!-- latest jquery-->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- popper js-->
+    <script src="../assets/js/popper.min.js"></script>
+
+    <!-- slick slider js -->
+    <script src="../assets/js/slick.js"></script>
+    <script src="../assets/js/custom-slick.js"></script>
+
+    <!-- counter js -->
+    <script src="../assets/js/counter.js"></script>
+
+    <!-- popover js for custom popover -->
+    <script src="../assets/js/popover.js"></script>
+
+    <!-- feather icon js-->
+    <script src="../assets/js/feather.min.js"></script>
+
+    <!-- emoji picker js-->
+    <script src="../assets/js/emojionearea.min.js"></script>
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/bootstrap.js"></script>
+
+    <!-- chatbox js -->
+    <script src="../assets/js/chatbox.js"></script>
+
+    <!-- lazyload js-->
+    <script src="../assets/js/lazysizes.min.js"></script>
+
+    <!-- theme setting js-->
+    <script src="../assets/js/theme-setting.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+        feather.replace();
+        $(".emojiPicker").emojioneArea({
+            inline: true,
+            placement: 'absleft',
+            pickerPosition: "top left",
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="friendbook">
+    <meta name="keywords" content="friendbook">
+    <meta name="author" content="friendbook">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon" />
+    <title>Friendbook</title>
+
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Theme css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- loader start -->
+    <div class="loading-text">
+        <div>
+            <h1 class="animate">Loading</h1>
+        </div>
+    </div>
+    <!-- loader end -->
+
+
+    <!-- header start -->
+    <header class="no-sticky bg-transparent">
+        <div class="container-fluid custom-padding">
+            <div class="header-section">
+                <div class="header-left">
+                    <div class="brand-logo">
+                        <a href="index.html">
+                            <img src="../assets/images/icon/logo.png" alt="logo" class="img-fluid blur-up lazyload">
+                        </a>
+                    </div>
+                    <div class="search-box">
+                        <i data-feather="search" class="icon iw-16 icon-light"></i>
+                        <input type="text" class="form-control search-type" placeholder="find friends...">
+                        <div class="icon-close">
+                            <i data-feather="x" class="iw-16 icon-light"></i>
+                        </div>
+                        <div class="search-suggestion">
+                            <span class="recent">recent search</span>
+                            <ul class="friend-list">
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/9.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/12.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/15.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <nav class="navbar navbar-expand-lg pe-0">
+                        <div class="overlay-bg"></div>
+                        <button class="navbar-toggler p-0" type="button">
+                            <i data-feather="menu" class="icon iw-22 ih-22 icon-light"></i>
+                        </button>
+                        <div class="navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item d-block d-lg-none back-btn">
+                                    <a class="nav-link" href="javascript:void(0)">back</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us.html">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="career.html">career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="faq.html">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex" href="login.html"><i class="me-2 iw-20 ih-20"
+                                            data-feather="log-in"></i>login</a>
+                                </li>
+                                <li class="header-btn margin-1 nav-item">
+                                    <a id="dark" class="nav-link res-dark" href="javascript:void(0)">
+                                        <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="moon"></i>
+                                    </a>
+                                    <a id="light" class="nav-link d-none" href="javascript:void(0)">
+                                        <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="sun"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- breadcrumb section start -->
+    <section class="breadcrumb-section breadcrumb-sm">
+        <img src="../assets/images/breadcrumb.jpg" class="img-fluid blur-up lazyload bg-img" alt="">
+        <div class="animation-emoji">
+            <ul class="circles">
+                <li>
+                    <img src="../assets/images/breadcrumb/1.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/2.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/3.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/4.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/5.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/6.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/7.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/8.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/9.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="help-search">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-12 m-auto">
+                        <h2>typography</h2>
+                        <nav aria-label="breadcrumb ">
+                            <ol class="breadcrumb theme-breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">typography</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb section end -->
+
+
+    <!-- typography section start -->
+    <section class=" typography-section">
+        <div class="element-card section-pb-space section-pt-space bg-white section-b-space">
+            <div class="container">
+                <div class="card-header">
+                    <h4>Theme Color</h4>
+                    <span>theme default colors: $theme-color, $theme-light</span>
+                </div>
+                <div class="card-body">
+                    <div class="color-cls row">
+                        <div class="col-md-2 col-6">
+                            <div class="color-box">#0389c9</div>
+                        </div>
+                        <div class="col-md-2 col-6">
+                            <div class="color-box">#edf7fb</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="element-card section-pb-space section-pt-space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>headings</h4>
+                            <span>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are
+                                available.</span>
+                        </div>
+                        <div class="card-body heading-content">
+                            <h1>h1 heading</h1>
+                            <h2>h2 heading</h2>
+                            <h3>h3 heading</h3>
+                            <h4>h4 heading</h4>
+                            <h5>h5 heading</h5>
+                            <h6>h6 heading</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>Text Color</h4>
+                            <span>You can Give text color by using txt-* class</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-primary">This is Primary text You can archive this adding
+                                <code>.text-primary</code> class</p>
+                            <p class="text-secondary">This is Secondary text You can archive this adding
+                                <code>.text-secondary</code> class</p>
+                            <p class="text-success">This is Success text You can archive this adding
+                                <code>.text-success</code> class</p>
+                            <p class="text-info">This is Info text You can archive this adding <code>.text-info</code>
+                                class
+                            </p>
+                            <p class="text-warning">This is Warning text You can archive this adding
+                                <code>.text-warning</code> class</p>
+                            <p class="text-danger">This is Danger text You can archive this adding
+                                <code>.text-danger</code> class</p>
+                            <p class="text-dark">This is Dark text You can archive this adding <code>.text-dark</code>
+                                class
+                            </p>
+                            <p class="text-muted">This is Primary text You can archive this adding
+                                <code>.text-muted</code> class</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="element-card section-pb-space section-pt-space bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>theme Switch</h4>
+                            <span>On off toggling switch to enable and disable notifications</span>
+                        </div>
+                        <div class="card-body">
+                            <form class="theme-form form-sm">
+                                <div class="row">
+                                    <div class="form-group col-12">
+                                        <label>where you receive these notifications?</label>
+                                    </div>
+                                    <div class="form-group toggle-sec col-12">
+                                        <div class="button toggle-btn">
+                                            <input type="checkbox" class="checkbox">
+                                            <div class="knobs">
+                                                <span></span>
+                                            </div>
+                                            <div class="layer"></div>
+                                        </div>
+                                        <label>email <span>Lorem ipsum dolor sit amet
+                                            </span></label>
+                                    </div>
+                                    <div class="form-group toggle-sec col-12">
+                                        <div class="button toggle-btn">
+                                            <input type="checkbox" checked="" class="checkbox">
+                                            <div class="knobs">
+                                                <span></span>
+                                            </div>
+                                            <div class="layer"></div>
+                                        </div>
+                                        <label>SMS
+                                            <span>Lorem ipsum dolor sit amet</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>theme pagination</h4>
+                            <span>you can also use bootstrap pagination by removing theme-pagination class</span>
+                        </div>
+                        <div class="pagination-section">
+                            <div class="card-body">
+                                <nav aria-label="Page navigation example" class="pagination-section mt-0">
+                                    <ul class="pagination theme-pagination justify-content-start">
+                                        <li class="page-item">
+                                            <a class="page-link" href="javascript:void(0)" aria-label="Previous"><i
+                                                    class="iw-15 ih-15" data-feather="chevron-left"></i>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link"
+                                                href="javascript:void(0)">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <i class="iw-15 ih-15" data-feather="chevron-right"></i>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="element-card section-pb-space section-pt-space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>Inline text elements</h4>
+                            <span>Styling for common inline HTML5 elements.</span>
+                        </div>
+                        <div class="card-body">
+                            <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                            <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                            <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                            <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+                            <p><u>This line of text will render as underlined</u></p>
+                            <p><small>This line of text is meant to be treated as fine print.</small></p>
+                            <p><strong>This line rendered as bold text.</strong></p>
+                            <p><em>This line rendered as italicized text.</em></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>Alignment</h4>
+                            <span>Use text utilities as needed to change the alignment of your blockquote.</span>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-left">This is a left aligned text .text-left</p>
+                            <p class="text-center">This is a center aligned text .text-center</p>
+                            <p class="text-right">This is a right aligned text .text-right</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="element-card section-pb-space section-pt-space bg-white">
+            <div class="container">
+                <div class="card-header">
+                    <h4>lists</h4>
+                    <span>Styling for common listing HTML5 elements.</span>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Nulla volutpat aliquam velit
+                                    <ol>
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Purus sodales ultricies</li>
+                                        <li>Vestibulum laoreet porttitor sem</li>
+                                        <li>Ac tristique libero volutpat at</li>
+                                    </ol>
+                                </li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                                <li>Aenean sit amet erat nunc</li>
+                                <li>Eget porttitor lorem</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li><i class="fa fa-angle-double-right me-2"></i>Lorem ipsum dolor sit amet</li>
+                                <li><i class="fa fa-angle-double-right me-2"></i>Lorem ipsum dolor sit amet</li>
+                                <li><i class="fa fa-angle-double-right me-2"></i>Lorem ipsum dolor sit amet</li>
+                                <li><i class="fa fa-angle-double-right me-2"></i>Lorem ipsum dolor sit amet</li>
+                                <li><i class="fa fa-angle-double-right me-2"></i>Lorem ipsum dolor sit amet</li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                                <li>Aenean sit amet erat nunc</li>
+                                <li>Eget porttitor lorem</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <dl>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>- ipsum dolor sit amet</dd>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>- ipsum dolor sit amet</dd>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>- ipsum dolor sit amet</dd>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>- ipsum dolor sit amet</dd>
+                                <dt>Lorem ipsum dolor sit amet</dt>
+                                <dd>- ipsum dolor sit amet</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="element-card section-pb-space section-pt-space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>popover</h4>
+                            <span>custom user popover</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="user-media">
+                                <div class="media">
+                                    <a class="user-img popover-cls" data-bs-toggle="popover" data-placement="right"
+                                        data-name="Paige Turner" data-img="../assets/images/user-sm/1.jpg">
+                                        <img src="../assets/images/user-sm/1.jpg"
+                                            class="img-fluid blur-up lazyload bg-img" alt="user">
+                                        <span class="available-stats"></span>
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name">Paige Turner</h5>
+                                        <h6>alabma, USA</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>theme tooltip</h4>
+                            <span>Friendbook use Tippy tooltip.here is th example.you can change direction in
+                                tippy-setting.js</span>
+                        </div>
+                        <div class="card-body">
+                            <ul class="d-flex tooltip-sec">
+                                <li>
+                                    <a href="index.html">
+                                        <i data-feather="file" class="bar-icon"></i>
+                                        <div class="tooltip-cls">
+                                            <span>newsfeed</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="ms-3">
+                                    <a href="favourite-page.html">
+                                        <i data-feather="star"></i>
+                                        <div class="tooltip-cls">
+                                            <span>Favourite</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="ms-3">
+                                    <a href="#">
+                                        <i data-feather="users"></i>
+                                        <div class="tooltip-cls">
+                                            <span>users</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="ms-3">
+                                    <a href="music.html">
+                                        <i data-feather="headphones"></i>
+                                        <div class="tooltip-cls">
+                                            <span>Music</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="ms-3">
+                                    <a href="weather.html">
+                                        <i data-feather="cloud"></i>
+                                        <div class="tooltip-cls">
+                                            <span>Weather</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="element-card section-pb-space section-pt-space bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>theme form</h4>
+                            <span>Here’s a quick example to theme’s form styles. </span>
+                        </div>
+                        <div class="card-body">
+                            <form class="theme-form form-sm">
+                                <div class="row  g-3">
+                                    <div class="form-group col-md-6">
+                                        <label>full name</label>
+                                        <input type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label>Phone Number</label>
+                                        <input type="number" class="form-control" placeholder="Phone number">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label>Pick Topic</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected="">Privacy</option>
+                                            <option>login</option>
+                                            <option>account</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label>Message</label>
+                                        <textarea rows="3" class="form-control"
+                                            placeholder="Write Your Message"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>radio & checkbox</h4>
+                            <span>Styling for radio and checkbox buttons.</span>
+                        </div>
+                        <div class="card-body input_button">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <form>
+                                        <div>
+                                            <input class="radio_animated" type="radio" name="gender" id="one"
+                                                value="male">
+                                            <label for="one" class="mb-2">Radio button1</label>
+                                        </div>
+                                        <div>
+                                            <input class="radio_animated" type="radio" name="gender" id="two"
+                                                value="male">
+                                            <label for="two" class="mb-2">Radio button2</label>
+                                        </div>
+                                        <div>
+                                            <input class="radio_animated" type="radio" name="gender" id="three"
+                                                value="male">
+                                            <label for="three" class="mb-2">Radio button3</label>
+                                        </div>
+                                        <div>
+                                            <input class="radio_animated" type="radio" name="gender" id="four"
+                                                value="male">
+                                            <label for="four" class="mb-2">Radio button4</label>
+                                        </div>
+                                        <div>
+                                            <input class="radio_animated" type="radio" name="gender" id="five"
+                                                value="male">
+                                            <label for="five" class="mb-2">Radio button5</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-sm-6">
+                                    <form class="checkbox_animated">
+                                        <div>
+                                            <input type="checkbox" name="gender" id="six" value="male">
+                                            <label for="six" class="mb-2">checkbox button1</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="gender" id="seven" value="male">
+                                            <label for="seven" class="mb-2">checkbox button2</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="gender" id="eight" value="male">
+                                            <label for="eight" class="mb-2">checkbox button3</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="gender" id="nine" value="male">
+                                            <label for="nine" class="mb-2">checkbox button4</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="gender" id="ten" value="male">
+                                            <label for="ten" class="mb-2">checkbox button5</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="element-card section-pb-space section-pt-space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>Naming a source</h4>
+                            <span>Add a <code class="highlighter-rouge">&lt;footer class="blockquote-footer"&gt;</code>
+                                for identifying the source. Wrap the name of the source work in <code
+                                    class="highlighter-rouge">&lt;cite&gt;</code>.</span>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                                    erat a ante.</p>
+                                <footer class="blockquote-footer pb-0 mt-0">Someone famous in <cite
+                                        title="Source Title">Source
+                                        Title</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>social icons</h4>
+                            <span>frienbook have used font awesome 5 icons here, you can also use different
+                                icons.</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="social-section">
+                                <ul class="d-flex">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="element-card section-pb-space section-pt-space bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card-header">
+                            <h4>Accordion</h4>
+                            <span>Theme style bootstrap accodion, you can use bootstrap accodion by removing
+                                theme-accordion class
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="accordion theme-accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                                aria-controls="collapseOne">
+                                                Collapsible Group Item #1
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                            richardson ad squid. 3 wolf moon officia aute,
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                Collapsible Group Item #2
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                            richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                            dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                                            tempor, sunt aliqua put a bird
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card-header">
+                            <h4>popover</h4>
+                            <span>custom user popover</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="user-media">
+                                <div class="media">
+                                    <a class="user-img popover-cls" data-bs-toggle="popover" data-placement="right"
+                                        data-name="Paige Turner" data-img="../assets/images/user-sm/1.jpg">
+                                        <img src="../assets/images/user-sm/1.jpg"
+                                            class="img-fluid blur-up lazyload bg-img" alt="user">
+                                        <span class="available-stats"></span>
+                                    </a>
+                                    <div class="media-body">
+                                        <h5 class="user-name">Paige Turner</h5>
+                                        <h6>alabma, USA</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card-header">
+                            <h4>dropdown</h4>
+                            <span>theme dropdown style</span>
+                        </div>
+                        <div class="card-body d-flex">
+                            <div class="settings">
+                                <div class="setting-btn setting-dropdown ms-2">
+                                    <div class=" btn-group custom-dropdown arrow-none dropdown-sm">
+                                        <a href="#" class="d-flex" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <i class="icon icon-dark stroke-width-3 iw-14 ih-14" data-feather="sun"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="user"></i>see all</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="search"></i>find friends</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="settings"></i>settings</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="settings ms-4">
+                                <div class="setting-btn ms-2 setting-dropdown no-bg">
+                                    <div class=" btn-group custom-dropdown arrow-none dropdown-sm">
+                                        <div role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <i class="icon icon-font-color iw-14" data-feather="more-horizontal"></i>
+                                        </div>
+                                        <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="edit"></i>edit profile</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="user"></i>view profile</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- typography section end -->
+
+
+    <!-- subscribe section start -->
+    <section>
+        <div class="container-fluid p-0">
+            <div class="app-section">
+                <img src="../assets/images/breadcrumb.jpg" class="img-fluid blur-up lazyload bg-img" alt="">
+                <div class="app-content">
+                    <h2>Download friendbook app now</h2>
+                    <div class="app-buttons">
+                        <a href="#" class="">
+                            <img src="../assets/images/app-btns/app-store.jpg" class="img-fluid blur-up lazyload"
+                                alt="">
+                        </a>
+                        <a href="#" class="">
+                            <img src="../assets/images/app-btns/play-store.jpg" class="img-fluid blur-up lazyload"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe section end -->
+
+
+    <!-- footer start -->
+    <footer class="footer-t-space pb-0">
+        <div class="container">
+            <div class="row footer-sec footer-b-space">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-title d-md-none d-block">
+                        <h4>about</h4>
+                    </div>
+                    <div class="footer-content">
+                        <div class="footer-logo"><img src="../assets/images/icon/logo-color.png" alt=""></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, et dolore magna aliqua. Ut enim ad
+                            minim veniam, enim ad minim veniam, </p>
+                        <div class="footer-social">
+                            <ul class="d-flex">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-title">
+                        <h4>my account</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="profile.html">timeline</a></li>
+                            <li><a href="profile-about.html">about</a></li>
+                            <li><a href="profile-friends.html">friends</a></li>
+                            <li><a href="profile-gallery.html">gallery</a></li>
+                            <li><a href="#">settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-title">
+                        <h4>quick links</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="#">settings</a></li>
+                            <li><a href="help-support.html">help & support</a></li>
+                            <li><a href="#">messanger</a></li>
+                            <li><a href="favourite-page.html">pages</a></li>
+                            <li><a href="company-about.html">company</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-title">
+                        <h4>pages</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="event.html">event</a></li>
+                            <li><a href="birthday.html">birthday</a></li>
+                            <li><a href="weather.html">weather</a></li>
+                            <li><a href="music.html">music</a></li>
+                            <li><a href="register.html">register</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-title">
+                        <h4>company</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="sub-footer">
+                        <p>Friendbook © 2021. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- theme setting -->
+    <div class="theme-settings">
+        <div class="rtl-btn">
+            <div class="theme-layout-version">RTL</div>
+        </div>
+        <div class="rtl-btn h-cls">
+            <div class="dark-button">Dark</div>
+        </div>
+        <div class="pages">
+            <a href="javascript:void(0)" onclick="openSetting()">
+                <div class="theme-setting-sidebar" id="setting-icon">
+                    <div>
+                        pages
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="setting_box" class="setting-box">
+        <a href="javascript:void(0)" class="overlay" onclick="closeSetting()"></a>
+        <div class="setting_box_body">
+            <div onclick="closeSetting()">
+                <div class="sidebar-back text-left"><i class="fa fa-angle-left pe-2" aria-hidden="true"></i> Back</div>
+            </div>
+            <div class="setting-body">
+                <div class="setting-title">
+                    <h4>Newsfeed Layout</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/1.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 1</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/2.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 2</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-2.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/3.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 3</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-3.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/4.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 4</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-4.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/5.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 5</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-5.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/6.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 6</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-6.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/7.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 7</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-7.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/8.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 8</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-8.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/9.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 9</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-9.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/10.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 10</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-10.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/11.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 11</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-11.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/12.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 12</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-12.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Profile Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/1.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>timeline</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/2.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>about</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-about.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/3.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>friends</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-friends.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/4.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>gallery</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-gallery.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/5.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>acitivity feed</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-activityfeed.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/6.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>tab</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-tab.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/7.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>friend profile</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile(friend).html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Favourite Page</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/1.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>page listing </h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('page-list.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/2.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>page home</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-page.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/3.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>about</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-about.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/4.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>review</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-reviews.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/5.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>gallery</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-gallery.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/6.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>tab</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('page-tab.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>other pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/events.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>event & calendar</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('event.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/birthday.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Birthday</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('birthday.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/weather.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>weather</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('weather.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/music.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Music</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('music.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/events.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>games</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('games.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/login.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>login </h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('login.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/register.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>register</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('register.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/help.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>help & support</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('help-support.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/messanger.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>messanger</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('messanger.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/setting.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>setting</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('settings.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/help.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>help article</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('help-article.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Company Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/home.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Home</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('company-home.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/about.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>About</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('about-us.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/blog.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Blog</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('blog.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/blog-details.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Blog details</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('blog-details.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/faq.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>FAQ</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('faq.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/career.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Career</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('career.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/career-details.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Career details</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('career-details.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/coming-soon.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>coming soon</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('coming-soon.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/404.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>404</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('404.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Element Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/typography.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>typography</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('typography.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/widget.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>sidebar widgets</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('sidebar-widgets.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/calendar.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>calender</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-event-calendar.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/map.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>maps</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-map.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/icons.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>icons</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('icons.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/modal.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>modal</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-modal.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/buttons.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>buttons</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-button.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy_btn">
+                    <a href="#" target="_blank" class="btn btn-block btn-solid ">purchase Friendbook now!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- theme setting -->
+
+
+    <!-- latest jquery-->
+    <script src="../assets/js/jquery-3.6.0.min.js "></script>
+
+    <!-- popper js-->
+    <script src="../assets/js/popper.min.js "></script>
+
+    <!-- popover js for custom popover -->
+    <script src="../assets/js/popover.js"></script>
+
+    <!-- feather icon js-->
+    <script src="../assets/js/feather.min.js "></script>
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/bootstrap.js "></script>
+
+    <!-- lazyload js-->
+    <script src="../assets/js/lazysizes.min.js"></script>
+
+    <!-- theme setting js-->
+    <script src="../assets/js/theme-setting.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js "></script>
+
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+
+</html>

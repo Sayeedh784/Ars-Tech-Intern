@@ -1,0 +1,2445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="friendbook">
+    <meta name="keywords" content="friendbook">
+    <meta name="author" content="friendbook">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon" />
+    <title>Friendbook</title>
+
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Theme css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- loader start -->
+    <div class="loading-text">
+        <div>
+            <h1 class="animate">Loading</h1>
+        </div>
+    </div>
+    <!-- loader end -->
+
+
+    <!-- header start -->
+    <header class="no-sticky bg-transparent">
+        <div class="container-fluid custom-padding">
+            <div class="header-section">
+                <div class="header-left">
+                    <div class="brand-logo">
+                        <a href="index.html">
+                            <img src="../assets/images/icon/logo.png" alt="logo" class="img-fluid blur-up lazyload">
+                        </a>
+                    </div>
+                    <div class="search-box">
+                        <i data-feather="search" class="icon iw-16 icon-light"></i>
+                        <input type="text" class="form-control search-type" placeholder="find friends...">
+                        <div class="icon-close">
+                            <i data-feather="x" class="iw-16 icon-light"></i>
+                        </div>
+                        <div class="search-suggestion">
+                            <span class="recent">recent search</span>
+                            <ul class="friend-list">
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/9.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/12.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media">
+                                        <img src="../assets/images/user-sm/15.jpg" alt="user">
+                                        <div class="media-body">
+                                            <div>
+                                                <h5 class="mt-0">Paige Turner</h5>
+                                                <h6> 1 mutual friend</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <nav class="navbar navbar-expand-lg pe-0">
+                        <div class="overlay-bg"></div>
+                        <button class="navbar-toggler p-0" type="button">
+                            <i data-feather="menu" class="icon iw-22 ih-22 icon-light"></i>
+                        </button>
+                        <div class="navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item d-block d-lg-none back-btn">
+                                    <a class="nav-link" href="javascript:void(0)">back</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us.html">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="career.html">career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="faq.html">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex" href="login.html"><i class="me-2 iw-20 ih-20"
+                                            data-feather="log-in"></i>login</a>
+                                </li>
+                                <li class="header-btn margin-1 nav-item">
+                                    <a id="dark" class="nav-link res-dark" href="javascript:void(0)">
+                                        <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="moon"></i>
+                                    </a>
+                                    <a id="light" class="nav-link d-none" href="javascript:void(0)">
+                                        <i class="icon-light stroke-width-3 iw-16 ih-16" data-feather="sun"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- breadcrumb section start -->
+    <section class="breadcrumb-section breadcrumb-sm">
+        <img src="../assets/images/breadcrumb.jpg" class="img-fluid blur-up lazyload bg-img" alt="">
+        <div class="animation-emoji">
+            <ul class="circles">
+                <li>
+                    <img src="../assets/images/breadcrumb/1.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/2.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/3.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/4.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/5.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/6.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/7.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/8.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+                <li>
+                    <img src="../assets/images/breadcrumb/9.png" class="img-fluid blur-up lazyload" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="help-search">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-12 m-auto">
+                        <h2>element modal</h2>
+                        <nav aria-label="breadcrumb ">
+                            <ol class="breadcrumb theme-breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">element modal</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb section end -->
+
+
+    <!-- modal section start -->
+    <section class="element-modal section-pt-space section-pb-space ratio2_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="modal-box">
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="../assets/images/modal-img/story.jpg"
+                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">story modal</h5>
+                                <a href="#" class="btn btn-solid" data-bs-toggle="modal" data-bs-target="#storyModel">open
+                                    modal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="modal-box">
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="../assets/images/modal-img/share.jpg"
+                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">share post modal</h5>
+                                <a href="#" class="btn btn-solid" data-bs-toggle="modal" data-bs-target="#shareModal">open
+                                    modal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="modal-box">
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="../assets/images/modal-img/gallery.jpg"
+                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">gallery/post modal</h5>
+                                <a href="#" class="btn btn-solid" data-bs-toggle="modal" data-bs-target="#imageModel">open
+                                    modal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="modal-box">
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="../assets/images/modal-img/video.jpg"
+                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Video view modal</h5>
+                                <a href="#" class="btn btn-solid" data-bs-toggle="modal" data-bs-target="#videoPlayer">open
+                                    modal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="modal-box">
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="../assets/images/modal-img/edit.jpg" class="img-fluid blur-up lazyload bg-img"
+                                    alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">edit profile modal</h5>
+                                <a href="#" class="btn btn-solid" data-bs-toggle="modal" data-bs-target="#editProfile">open
+                                    modal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="modal-box">
+                        <div class="card">
+                            <div class="img-section">
+                                <img src="../assets/images/modal-img/choose.jpg"
+                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Choose photo modal</h5>
+                                <a href="#" class="btn btn-solid" data-bs-toggle="modal" data-bs-target="#choosePhoto">open
+                                    modal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modal section end -->
+
+
+    <!-- subscribe section start -->
+    <section>
+        <div class="container-fluid p-0">
+            <div class="app-section">
+                <img src="../assets/images/breadcrumb.jpg" class="img-fluid blur-up lazyload bg-img" alt="">
+                <div class="app-content">
+                    <h2>Download friendbook app now</h2>
+                    <div class="app-buttons">
+                        <a href="#" class="">
+                            <img src="../assets/images/app-btns/app-store.jpg" class="img-fluid blur-up lazyload"
+                                alt="">
+                        </a>
+                        <a href="#" class="">
+                            <img src="../assets/images/app-btns/play-store.jpg" class="img-fluid blur-up lazyload"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe section end -->
+
+
+    <!-- footer start -->
+    <footer class="footer-t-space pb-0">
+        <div class="container">
+            <div class="row footer-sec footer-b-space">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-title d-md-none d-block">
+                        <h4>about</h4>
+                    </div>
+                    <div class="footer-content">
+                        <div class="footer-logo"><img src="../assets/images/icon/logo-color.png" alt=""></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, et dolore magna aliqua. Ut enim ad
+                            minim veniam, enim ad minim veniam, </p>
+                        <div class="footer-social">
+                            <ul class="d-flex">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-title">
+                        <h4>my account</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="profile.html">timeline</a></li>
+                            <li><a href="profile-about.html">about</a></li>
+                            <li><a href="profile-friends.html">friends</a></li>
+                            <li><a href="profile-gallery.html">gallery</a></li>
+                            <li><a href="#">settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-title">
+                        <h4>quick links</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="#">settings</a></li>
+                            <li><a href="help-support.html">help & support</a></li>
+                            <li><a href="#">messanger</a></li>
+                            <li><a href="favourite-page.html">pages</a></li>
+                            <li><a href="company-about.html">company</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-title">
+                        <h4>pages</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="event.html">event</a></li>
+                            <li><a href="birthday.html">birthday</a></li>
+                            <li><a href="weather.html">weather</a></li>
+                            <li><a href="music.html">music</a></li>
+                            <li><a href="register.html">register</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-title">
+                        <h4>company</h4>
+                    </div>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="sub-footer">
+                        <p>Friendbook © 2021. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- story model start -->
+    <div class="modal story-model" id="storyModel" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="story-bg">
+                        <div class="container-fluid p-0">
+                            <div class="row m-0">
+                                <div class="left-box col-xl-3 col-lg-4">
+                                    <div class="model-title">
+                                        <div class="title-main">
+                                            <h2>stories</h2>
+                                        </div>
+                                        <div class="title-setting">
+                                            <ul>
+                                                <li><a href="#">archive</a></li>
+                                                <li><a href="#">settings</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="modal-flex">
+                                        <div class="add-story">
+                                            <h4 class="story-title">your story</h4>
+                                            <div class="media list-media">
+                                                <div class="story-img" data-bs-toggle="modal" data-bs-target="#addStory">
+                                                    <div class="user-img">
+                                                        <img src="../assets/images/story-bg.jpg"
+                                                            class="img-fluid blur-up lazyload bg-img" alt="user">
+                                                    </div>
+                                                    <div class="add-icon">
+                                                        <div class="icon">
+                                                            <img src="../assets/images/icon/plus.png"
+                                                                class="img-fluid blur-up lazyload" alt="plus">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5>add story</h5>
+                                                    <h6>share your photos or video</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="friend-story">
+                                            <h4 class="story-title">all stories</h4>
+                                            <div class="slider-nav">
+                                                <div>
+                                                    <div class="media list-media">
+                                                        <div class="story-img seen">
+                                                            <div class="user-img">
+                                                                <img src="../assets/images/user-sm/1.jpg"
+                                                                    class="img-fluid blur-up lazyload bg-img"
+                                                                    alt="user">
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h5>Petey Cruiser</h5>
+                                                            <h6>2 hours ago</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="media list-media">
+                                                        <div class="story-img seen">
+                                                            <div class="user-img">
+                                                                <img src="../assets/images/user-sm/2.jpg"
+                                                                    class="img-fluid blur-up lazyload bg-img"
+                                                                    alt="user">
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h5>Anna Sthesia</h5>
+                                                            <h6>3 hours ago</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="media list-media">
+                                                        <div class="story-img">
+                                                            <div class="user-img">
+                                                                <img src="../assets/images/user-sm/3.jpg"
+                                                                    class="img-fluid blur-up lazyload bg-img"
+                                                                    alt="user">
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h5>Paul Molive</h5>
+                                                            <h6>5 hours ago</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="media list-media">
+                                                        <div class="story-img">
+                                                            <div class="user-img">
+                                                                <img src="../assets/images/user-sm/4.jpg"
+                                                                    class="img-fluid blur-up lazyload bg-img"
+                                                                    alt="user">
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h5>Anna Mull</h5>
+                                                            <h6>5 hours ago</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="media list-media">
+                                                        <div class="story-img">
+                                                            <div class="user-img">
+                                                                <img src="../assets/images/user-sm/5.jpg"
+                                                                    class="img-fluid blur-up lazyload bg-img"
+                                                                    alt="user">
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h5>Paige Turner</h5>
+                                                            <h6>5 hours ago</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="media list-media">
+                                                        <div class="story-img">
+                                                            <div class="user-img">
+                                                                <img src="../assets/images/user-sm/6.jpg"
+                                                                    class="img-fluid blur-up lazyload bg-img"
+                                                                    alt="user">
+                                                            </div>
+                                                        </div>
+                                                        <div class="media-body">
+                                                            <h5>Bob Frapples</h5>
+                                                            <h6>5 hours ago</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-box col-xl-9 col-lg-8 p-0">
+                                    <a href="#" data-bs-dismiss="modal"><i data-feather="x"
+                                            class="icon-light close"></i></a>
+                                    <div class="sliderContainer">
+                                        <div class="slider single-item">
+                                            <div>
+                                                <div class="story-image"><img src="../assets/images/post/1.jpg"
+                                                        class="img-fluid blur-up lazyload" alt=""></div>
+                                            </div>
+                                            <div>
+                                                <div class="story-image"><img src="../assets/images/post/2.jpg"
+                                                        class="img-fluid blur-up lazyload" alt=""></div>
+                                            </div>
+                                            <div>
+                                                <div class="story-image"><img src="../assets/images/post/3.jpg"
+                                                        class="img-fluid blur-up lazyload" alt=""></div>
+                                            </div>
+                                            <div>
+                                                <div class="story-image"><img src="../assets/images/post/4.jpg"
+                                                        class="img-fluid blur-up lazyload" alt=""></div>
+                                            </div>
+                                            <div>
+                                                <div class="story-image"><img src="../assets/images/post/5.jpg"
+                                                        class="img-fluid blur-up lazyload" alt=""></div>
+                                            </div>
+                                            <div>
+                                                <div class="story-image"><img src="../assets/images/post/6.jpg"
+                                                        class="img-fluid blur-up lazyload" alt=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="progressBarContainer">
+                                            <div class="item">
+                                                <span data-slick-index="0" class="progressBar"></span>
+                                            </div>
+                                            <div class="item">
+                                                <span data-slick-index="1" class="progressBar"></span>
+                                            </div>
+                                            <div class="item">
+                                                <span data-slick-index="2" class="progressBar"></span>
+                                            </div>
+                                            <div class="item">
+                                                <span data-slick-index="3" class="progressBar"></span>
+                                            </div>
+                                            <div class="item">
+                                                <span data-slick-index="4" class="progressBar"></span>
+                                            </div>
+                                            <div class="item">
+                                                <span data-slick-index="5" class="progressBar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reply-section">
+                                        <div class="reply-form">
+                                            <input class="form-control" placeholder="reply...">
+                                        </div>
+                                        <ul class="emoji icon-xl">
+                                            <li><img src="../assets/svg/emoji/040.svg"
+                                                    class="img-fluid blur-up lazyload" alt="smile">
+                                            </li>
+                                            <li><img src="../assets/svg/emoji/113.svg"
+                                                    class="img-fluid blur-up lazyload" alt="smile">
+                                            </li>
+                                            <li><img src="../assets/svg/emoji/027.svg"
+                                                    class="img-fluid blur-up lazyload" alt="smile">
+                                            </li>
+                                            <li><img src="../assets/svg/emoji/052.svg"
+                                                    class="img-fluid blur-up lazyload" alt="smile">
+                                            </li>
+                                            <li><img src="../assets/svg/emoji/039.svg"
+                                                    class="img-fluid blur-up lazyload" alt="smile">
+                                            </li>
+                                            <li><img src="../assets/svg/emoji/042.svg"
+                                                    class="img-fluid blur-up lazyload" alt="smile">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- story model end -->
+
+
+    <!-- add post/story model start -->
+    <div class="modal fade" id="addStory" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="create-post">
+                        <div class="static-section">
+                            <div class="card-title">
+                                <h3>create post</h3>
+                                <ul class="create-option">
+                                    <li class="options">
+                                        <div class="setting-dropdown">
+                                            <div class="btn-group custom-dropdown arrow-none dropdown-sm">
+                                                <h5 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    public <i class="iw-14" data-feather="chevron-down"></i></h5>
+                                                <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+                                                    <ul>
+                                                        <li>
+                                                            <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                    data-feather="globe"></i>public</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                    data-feather="users"></i>friends</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                    data-feather="user"></i>friends
+                                                                except</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                    data-feather="user"></i>specific
+                                                                friends</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                    data-feather="lock"></i>only me</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h5><i class="iw-15" data-feather="video"></i>go live</h5>
+                                    </li>
+                                </ul>
+                                <div class="settings">
+                                    <div class="setting-btn ms-2 setting-dropdown no-bg">
+                                        <div class="btn-group custom-dropdown arrow-none dropdown-sm">
+                                            <div role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                <i class="icon icon-font-color iw-14"
+                                                    data-feather="more-horizontal"></i>
+                                            </div>
+                                            <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+                                                <ul>
+                                                    <li>
+                                                        <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                data-feather="edit"></i>edit profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                data-feather="user"></i>view profile</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-input input-style icon-right">
+                                <input type="text" class="form-control enable" placeholder="write something here..">
+                                <a href="#">
+                                    <img src="../assets/images/icon/translate.png"
+                                        class="img-fluid blur-up lazyload icon" alt="translate">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="create-bg">
+                            <div class="bg-post" id="bg-post">
+                                <div class="input-sec">
+                                    <input type="text" class="form-control enable"
+                                        placeholder="write something here.." />
+                                    <div class="close-icon">
+                                        <a href="javascript:void(0)">
+                                            <i class="iw-20 ih-20" data-feather="x"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="gradient-bg">
+                                <li onclick="clickGradient( 'gr-1')" class="gr-1"></li>
+                                <li onclick="clickGradient( 'gr-2')" class="gr-2"></li>
+                                <li onclick="clickGradient( 'gr-3')" class="gr-3"></li>
+                                <li onclick="clickGradient( 'gr-4')" class="gr-4"></li>
+                                <li onclick="clickGradient( 'gr-5')" class="gr-5"></li>
+                                <li onclick="clickGradient( 'gr-6')" class="gr-6"></li>
+                                <li onclick="clickGradient( 'gr-7')" class="gr-7"></li>
+                                <li onclick="clickGradient( 'gr-8')" class="gr-8"></li>
+                                <li onclick="clickGradient( 'gr-9')" class="gr-9"></li>
+                                <li onclick="clickGradient( 'gr-10')" class="gr-10"></li>
+                                <li onclick="clickGradient( 'gr-11')" class="gr-11"></li>
+                                <li onclick="clickGradient( 'gr-12')" class="gr-12"></li>
+                                <li onclick="clickGradient( 'gr-13')" class="gr-13"></li>
+                                <li onclick="clickGradient( 'gr-14')" class="gr-14"></li>
+                                <li onclick="clickGradient( 'gr-15')" class="gr-15"></li>
+                            </ul>
+                        </div>
+                        <ul class="create-btm-option">
+                            <li>
+                                <input class="choose-file" type="file">
+                                <h5><i class="iw-14" data-feather="camera"></i>album</h5>
+                            </li>
+                            <li>
+                                <h5><i class="iw-15" data-feather="smile"></i>feelings & acitivity</h5>
+                            </li>
+                            <li>
+                                <h5><i class="iw-15" data-feather="map-pin"></i>check in</h5>
+                            </li>
+                            <li>
+                                <h5><i class="iw-15" data-feather="tag"></i>tag friends</h5>
+                            </li>
+                        </ul>
+                        <div id="post-btn" class="post-btn">
+                            <button disabled="disabled" class="Disable">post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- add post/story model end -->
+
+
+    <!-- video player model start -->
+    <div class="modal fade bd-example-modal-lg" id="videoPlayer" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body video-model">
+                    <iframe class="video" src="https://www.youtube.com/embed/TKnufs85hXk"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- video player model end -->
+
+
+    <!-- gallery image model -->
+    <div class="modal comment-model" id="imageModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div>
+                    <div class="image-gallery">
+                        <div class="row m-0">
+                            <div class="col-xl-9 col-lg-8 p-0">
+                                <a href="#" data-bs-dismiss="modal"><i data-feather="x"
+                                        class="icon-light close-btn"></i></a>
+                                <div class="slide-1 box-arrow dots-number">
+                                    <div>
+                                        <div class="img-part">
+                                            <img src="../assets/images/post/15.jpg" class="img-fluid blur-up lazyload"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-part">
+                                            <img src="../assets/images/post/16.jpg" class="img-fluid blur-up lazyload"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="img-part">
+                                            <img src="../assets/images/post/17.jpg" class="img-fluid blur-up lazyload"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 p-0">
+                                <div class="comment-part">
+                                    <div class="user-detail">
+                                        <div class="user-media">
+                                            <div class="media">
+                                                <a class="user-img">
+                                                    <img src="../assets/images/user-sm/1.jpg"
+                                                        class="img-fluid blur-up lazyload bg-img" alt="user">
+                                                    <span class="available-stats"></span>
+                                                </a>
+                                                <div class="media-body">
+                                                    <h5 class="user-name">Paige Turner</h5>
+                                                    <h6>alabma, USA</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="setting-btn ms-auto setting-dropdown no-bg">
+                                            <div class="btn-group custom-dropdown arrow-none dropdown-sm">
+                                                <div role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    <i class="icon icon-font-color iw-14"
+                                                        data-feather="more-horizontal"></i>
+                                                </div>
+                                                <div class="dropdown-menu dropdown-menu-right custom-dropdown">
+                                                    <ul>
+                                                        <li>
+                                                            <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                    data-feather="bookmark"></i>save post</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                    data-feather="edit"></i>edit post</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                                    data-feather="x-square"></i>hide post</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-panel mb-0">
+                                        <div class="post-wrapper">
+                                            <div class="post-details">
+                                                <div class="like-panel">
+                                                    <div class="left-emoji">
+                                                        <ul>
+                                                            <li>
+                                                                <img src="../assets/svg/emoji/040.svg" alt="smile">
+                                                            </li>
+                                                            <li>
+                                                                <img src="../assets/svg/emoji/113.svg" alt="heart">
+                                                            </li>
+                                                        </ul>
+                                                        <h6>+75</h6>
+                                                    </div>
+                                                    <div class="right-stats">
+                                                        <ul>
+                                                            <li>
+                                                                <h5>
+                                                                    <i class="iw-16 ih-16"
+                                                                        data-feather="message-square"></i>
+                                                                    <span>4565</span> comment
+                                                                </h5>
+                                                            </li>
+                                                            <li>
+                                                                <h5>
+                                                                    <i class="iw-16 ih-16"
+                                                                        data-feather="share"></i><span>985</span> share
+                                                                </h5>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="post-react">
+                                                    <ul>
+                                                        <li class="react-btn">
+                                                            <a class="react-click" href="javascript:void(0)">
+                                                                <i class="iw-18 ih-18" data-feather="smile"></i> react
+                                                            </a>
+                                                            <div class="react-box">
+                                                                <ul>
+                                                                    <li data-title="smile">
+                                                                        <a href="javascript:void(0)">
+                                                                            <img src="../assets/svg/emoji/040.svg"
+                                                                                alt="smile">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li data-title="love">
+                                                                        <a href="javascript:void(0)">
+                                                                            <img src="../assets/svg/emoji/113.svg"
+                                                                                alt="heart">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li data-title="cry">
+                                                                        <a href="javascript:void(0)">
+                                                                            <img src="../assets/svg/emoji/027.svg"
+                                                                                alt="cry">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li data-title="wow">
+                                                                        <a href="javascript:void(0)">
+                                                                            <img src="../assets/svg/emoji/052.svg"
+                                                                                alt="angry">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li data-title="angry">
+                                                                        <a href="javascript:void(0)">
+                                                                            <img src="../assets/svg/emoji/039.svg"
+                                                                                alt="angry">
+                                                                        </a>
+                                                                    </li>
+                                                                    <li data-title="haha">
+                                                                        <a href="javascript:void(0)">
+                                                                            <img src="../assets/svg/emoji/042.svg"
+                                                                                alt="">
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="comment-click">
+                                                            <a href="javascript:void(0)">
+                                                                <i class="iw-18 ih-18"
+                                                                    data-feather="message-square"></i> comment
+                                                            </a>
+                                                        </li>
+                                                        <li data-bs-target="#shareModal" data-bs-toggle="modal">
+                                                            <a href="javascript:void(0)">
+                                                                <i class="iw-16 ih-16" data-feather="share"></i> share
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="comment-section">
+                                                    <div class="comments d-block">
+                                                        <div class="ldr-comments">
+                                                            <ul>
+                                                                <li>
+                                                                    <div class="media">
+                                                                        <div class="ldr-img"></div>
+                                                                        <div class="media-body">
+                                                                            <div class="contents">
+                                                                                <div class="ldr-content"></div>
+                                                                                <div class="ldr-content"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <ul class="sub-comment">
+                                                                        <li>
+                                                                            <div class="media">
+                                                                                <div class="ldr-img"></div>
+                                                                                <div class="media-body">
+                                                                                    <div class="contents">
+                                                                                        <div class="ldr-content"></div>
+                                                                                        <div class="ldr-content"></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="media">
+                                                                        <div class="ldr-img"></div>
+                                                                        <div class="media-body">
+                                                                            <div class="contents">
+                                                                                <div class="ldr-content"></div>
+                                                                                <div class="ldr-content"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="media">
+                                                                        <div class="ldr-img"></div>
+                                                                        <div class="media-body">
+                                                                            <div class="contents">
+                                                                                <div class="ldr-content"></div>
+                                                                                <div class="ldr-content"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="main-comment">
+                                                            <div class="media">
+                                                                <a href="#" class="user-img popover-cls"
+                                                                    data-bs-toggle="popover" data-placement="right"
+                                                                    data-name="Pabelo mukrani"
+                                                                    data-img="../assets/images/user-sm/2.jpg">
+                                                                    <img src="../assets/images/user-sm/2.jpg"
+                                                                        class="img-fluid blur-up lazyload bg-img"
+                                                                        alt="user">
+                                                                </a>
+                                                                <div class="media-body">
+                                                                    <a href="#">
+                                                                        <h5>Pabelo Mukrani</h5>
+                                                                    </a>
+                                                                    <p>Oooo Very Cute and Sweet Dog, happy birthday
+                                                                        Cuty.... &#128578;
+                                                                    </p>
+                                                                    <ul class="comment-option">
+                                                                        <li><a href="#">like (5)</a></li>
+                                                                        <li><a href="#">reply</a></li>
+                                                                        <li><a href="#">translate</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="comment-time">
+                                                                    <h6>50 mins ago</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="sub-comment">
+                                                                <div class="media">
+                                                                    <a href="#" class="user-img popover-cls"
+                                                                        data-bs-toggle="popover" data-placement="right"
+                                                                        data-name="sufiya elija"
+                                                                        data-img="../assets/images/user-sm/3.jpg">
+                                                                        <img src="../assets/images/user-sm/3.jpg"
+                                                                            class="img-fluid blur-up lazyload bg-img"
+                                                                            alt="user">
+                                                                    </a>
+                                                                    <div class="media-body">
+                                                                        <a href="#">
+                                                                            <h5>sufiya elija</h5>
+                                                                        </a>
+                                                                        <p>Thank You So Much ❤❤</p>
+                                                                        <ul class="comment-option">
+                                                                            <li><a href="#">like</a></li>
+                                                                            <li><a href="#">reply</a></li>
+                                                                            <li><a href="#">translate</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="comment-time">
+                                                                        <h6>50 mins ago</h6>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="media">
+                                                                    <a href="#" class="user-img popover-cls"
+                                                                        data-bs-toggle="popover" data-placement="right"
+                                                                        data-name="sufiya eliza"
+                                                                        data-img="../assets/images/user-sm/4.jpg">
+                                                                        <img src="../assets/images/user-sm/4.jpg"
+                                                                            class="img-fluid blur-up lazyload bg-img"
+                                                                            alt="user">
+                                                                    </a>
+                                                                    <div class="media-body">
+                                                                        <a href="#">
+                                                                            <h5>sufiya elija</h5>
+                                                                        </a>
+                                                                        <p>Thank You So Much ❤❤</p>
+                                                                        <ul class="comment-option">
+                                                                            <li><a href="#">like</a></li>
+                                                                            <li><a href="#">reply</a></li>
+                                                                            <li><a href="#">translate</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="comment-time">
+                                                                        <h6>50 mins ago</h6>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="javascript:void(0)" class="loader">
+                                                                    <i class="iw-15 ih-15" data-feather="rotate-cw"></i>
+                                                                    load more replies
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="main-comment">
+                                                            <div class="media">
+                                                                <a href="#" class="user-img popover-cls"
+                                                                    data-bs-toggle="popover" data-placement="right"
+                                                                    data-name="pabelo mukrani"
+                                                                    data-img="../assets/images/user-sm/2.jpg">
+                                                                    <img src="../assets/images/user-sm/2.jpg"
+                                                                        class="img-fluid blur-up lazyload bg-img"
+                                                                        alt="user">
+                                                                </a>
+                                                                <div class="media-body">
+                                                                    <a href="#">
+                                                                        <h5>Pabelo Mukrani</h5>
+                                                                    </a>
+                                                                    <p>It’s party time, Sufiya..... and happy birthday
+                                                                        cuty 🎉🎊
+                                                                    </p>
+                                                                    <ul class="comment-option">
+                                                                        <li><a href="#">like</a></li>
+                                                                        <li><a href="#">reply</a></li>
+                                                                        <li><a href="#">translate</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="comment-time">
+                                                                    <h6>50 mins ago</h6>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="reply">
+                                                        <div class="search-input input-style input-lg icon-right">
+                                                            <input type="text" class="form-control emojiPicker"
+                                                                placeholder="write a comment..">
+                                                            <a href="javascript:void(0)">
+                                                                <i data-feather="smile"
+                                                                    class="icon icon-2 iw-14 ih-14"></i>
+                                                            </a>
+                                                            <a href="javascript:void(0)">
+                                                                <i data-feather="camera" class="icon iw-14 ih-14"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- share post model start -->
+    <div class="modal fade mobile-full-width" id="shareModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content share-modal">
+                <div class="modal-header">
+                    <div class="setting-dropdown">
+                        <div class=" btn-group custom-dropdown arrow-none dropdown-sm">
+                            <h5 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">share as post <i
+                                    class="iw-14" data-feather="chevron-down"></i></h5>
+                            <div class="dropdown-menu custom-dropdown">
+                                <ul>
+                                    <li>
+                                        <a href="">share as post</a>
+                                    </li>
+                                    <li>
+                                        <a href="">on friend's feed</a>
+                                    </li>
+                                    <li>
+                                        <a href="">in a group</a>
+                                    </li>
+                                    <li>
+                                        <a href="">share as message</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="user-info">
+                        <div class="media">
+                            <a href="#" class="user-img">
+                                <img src="../assets/images/user-sm/2.jpg" class="img-fluid blur-up lazyload bg-img"
+                                    alt="user">
+                            </a>
+                            <div class="media-body">
+                                <a href="#">
+                                    <h5>Pabelo Mukrani</h5>
+                                </a>
+                                <div class="setting-dropdown">
+                                    <div class=" btn-group custom-dropdown arrow-none dropdown-sm">
+                                        <h6 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="icon-font-light left-icon iw-12 ih-12"
+                                                data-feather="globe"></i>public <i class="iw-14"
+                                                data-feather="chevron-down"></i></h6>
+                                        <div class="dropdown-menu custom-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="globe"></i>public</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="users"></i>friends</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="user"></i>friends
+                                                        except</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="user"></i>specific
+                                                        friends</a>
+                                                </li>
+                                                <li>
+                                                    <a href=""><i class="icon-font-light iw-16 ih-16"
+                                                            data-feather="lock"></i>only me</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-section">
+                        <input type="text" class="form-control emojiPicker" placeholder="write a comment..">
+                    </div>
+                    <div class="post-section ratio2_1">
+                        <div class="post-img">
+                            <img src="../assets/images/post/1.jpg" class="img-fluid blur-up lazyload bg-img" alt="">
+                        </div>
+                        <div class="post-content">
+                            <h3>Today Our Three Cute Puppy Dog Birthday !!!!</h3>
+                            <h5 class="tag"><span>#ourcutepuppy,</span> #puppy, #birthday, #dog</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-solid">share post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- share post model end -->
+
+
+    <!-- Edit Profile modal start -->
+    <div class="modal fade mobile-full-width" id="editProfile" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-custom-lg " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="edit-profile-sec">
+                        <div class="profile-wrap">
+                            <div class="edit-title">
+                                <div class="icon">
+                                    <i class="iw-16 ih-16" data-feather="image"></i>
+                                </div>
+                                <h5>edit profile image</h5>
+                            </div>
+                            <div class="edit-content">
+                                <div class="profile-pic">
+                                    <div>
+                                        <img src="../assets/images/user-sm/1.jpg"
+                                            class="img-fluid blur-up lazyload bg-img" alt="">
+                                    </div>
+                                    <a href="#" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#choosePhoto">edit
+                                        image</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-wrap">
+                            <div class="edit-title">
+                                <div class="icon">
+                                    <i class="iw-16 ih-16" data-feather="briefcase"></i>
+                                </div>
+                                <h5>work details</h5>
+                                <a href="#" class="btn btn-outline ms-auto">+ add work</a>
+                            </div>
+                            <div class="edit-content">
+                                <h5>UX Designer at Google <a><i class="iw-16 ih-16" data-feather="edit-2"></i></a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="profile-wrap">
+                            <div class="edit-title">
+                                <div class="icon">
+                                    <svg>
+                                        <use class="fill-color" xlink:href="../assets/svg/icons.svg#degree"></use>
+                                    </svg>
+                                </div>
+                                <h5>education</h5>
+                                <a href="#" class="btn btn-outline ms-auto">+ add education</a>
+                            </div>
+                            <div class="edit-content">
+                                <h5>At London Univercity - 2015
+                                    <a> <i class="iw-16 ih-16" data-feather="edit-2"></i></a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="profile-wrap">
+                            <div class="edit-title">
+                                <div class="icon">
+                                    <i class="iw-18 ih-18" data-feather="heart"></i>
+                                </div>
+                                <h5>relationship status</h5>
+                            </div>
+                            <div class="edit-content">
+                                <form class="edit-radio row">
+                                    <div class="form-check col-sm-6">
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            <input class="form-check-input radio_animated" type="radio"
+                                                name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                            single
+                                        </label>
+                                    </div>
+                                    <div class="form-check col-sm-6">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            <input class="form-check-input radio_animated" type="radio"
+                                                name="exampleRadios" id="exampleRadios2" value="option2">
+                                            in a relationship
+                                        </label>
+                                    </div>
+                                    <div class="form-check col-sm-6">
+                                        <label class="form-check-label" for="exampleRadios3">
+                                            <input class="form-check-input radio_animated" type="radio"
+                                                name="exampleRadios" id="exampleRadios3" value="option3">
+                                            engaged
+                                        </label>
+                                    </div>
+                                    <div class="form-check col-sm-6">
+                                        <label class="form-check-label" for="exampleRadios4">
+                                            <input class="form-check-input radio_animated" type="radio"
+                                                name="exampleRadios" id="exampleRadios4" value="option3">
+                                            married
+                                        </label>
+                                    </div>
+                                    <div class="form-check col-sm-6">
+                                        <label class="form-check-label" for="exampleRadios5">
+                                            <input class="form-check-input radio_animated" type="radio"
+                                                name="exampleRadios" id="exampleRadios5" value="option3">
+                                            divorced
+                                        </label>
+                                    </div>
+                                    <div class="form-check col-sm-6">
+                                        <label class="form-check-label" for="exampleRadios6">
+                                            <input class="form-check-input radio_animated" type="radio"
+                                                name="exampleRadios" id="exampleRadios6" value="option3">
+                                            widowed
+                                        </label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="profile-wrap">
+                            <div class="edit-title">
+                                <div class="icon">
+                                    <i class="iw-18 ih-18" data-feather="map-pin"></i>
+                                </div>
+                                <h5>current city</h5>
+                                <a href="#" class="btn btn-outline ms-auto">+ add city</a>
+                            </div>
+                            <div class="edit-content">
+                                <h5>London
+                                    <a> <i class="iw-16 ih-16" data-feather="edit-2"></i></a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-solid">save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Edit Profile modal end -->
+
+
+    <!-- choose photo modal start -->
+    <div class="modal fade mobile-full-width" id="choosePhoto" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered Choose-photo-modal modal-custom-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Choose Photo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#uploaded" role="tab"
+                                aria-selected="true">Uploaded</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#album" role="tab"
+                                aria-selected="false">Album</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="uploaded" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row gallery-photo ratio_landscape">
+                                <div class="col-sm-4 col-6">
+                                    <label for="chk-ani1"></label>
+                                        <input class="radio_animated" id="chk-ani1" type="radio" name="Radios"
+                                            checked="">
+                                        <a class="image-box">
+                                            <div class="image">
+                                                <img src="../assets/images/post/10.jpg"
+                                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                                            </div>
+                                        </a>
+                                    
+                                </div>
+                                <div class="col-sm-4 col-6">
+                                    <label for="chk-ani2"></label>
+                                        <input class="radio_animated" id="chk-ani2" type="radio" name="Radios">
+                                        <div class="image-box">
+                                            <div class="image">
+                                                <img src="../assets/images/post/9.jpg"
+                                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                <div class="col-sm-4 col-6">
+                                    <label for="chk-ani3"></label>
+                                        <input class="radio_animated" id="chk-ani3" type="radio" name="Radios">
+                                        <div class="image-box">
+                                            <div class="image">
+                                                <img src="../assets/images/post/8.jpg"
+                                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                <div class="col-sm-4 col-6">
+                                    <label for="chk-ani4"></label>
+                                        <input class="radio_animated" id="chk-ani4" type="radio" name="Radios">
+                                        <div class="image-box">
+                                            <div class="image">
+                                                <img src="../assets/images/post/7.jpg"
+                                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                <div class="col-sm-4 col-6">
+                                    <label for="chk-ani5"></label>
+                                        <input class="radio_animated" id="chk-ani5" type="radio" name="Radios">
+                                        <div class="image-box">
+                                            <div class="image">
+                                                <img src="../assets/images/post/6.jpg"
+                                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                <div class="col-sm-4 col-6">
+                                    <label for="chk-ani6"></label>
+                                        <input class="radio_animated" id="chk-ani6" type="radio" name="Radios">
+                                        <div class="image-box">
+                                            <div class="image">
+                                                <img src="../assets/images/post/5.jpg"
+                                                    class="img-fluid blur-up lazyload bg-img" alt="">
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="album" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row gallery-album">
+                                <div class="col-6">
+                                    <div class="card add-card">
+                                        <div class="add-icon">
+                                            <i class="iw-30 ih-30" data-feather="plus-circle"></i>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">create album</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <a class="card collection">
+                                        <img class="card-img-top img-fluid blur-up lazyload bg-img"
+                                            src="../assets/images/post/3.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Cover photos</h5>
+                                            <h6>3 photos</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="card collection">
+                                        <img class="card-img-top img-fluid blur-up lazyload bg-img"
+                                            src="../assets/images/post/4.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">profile photos</h5>
+                                            <h6>3 photos</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="card collection">
+                                        <img class="card-img-top img-fluid blur-up lazyload bg-img"
+                                            src="../assets/images/post/10.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">family trip</h5>
+                                            <h6>3 photos</h6>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="gallery-open">
+                                <div class="close-album">
+                                    <h5>close album</h5>
+                                </div>
+                                <div class="row gallery-photo ratio_landscape">
+                                    <div class="col-sm-4 col-6">
+                                        <label for="chk-ani11"></label>
+                                            <input class="radio_animated" id="chk-ani11" type="radio" name="Radios1"
+                                                checked="">
+                                            <div class="image-box">
+                                                <div class="image">
+                                                    <img src="../assets/images/post/1.jpg"
+                                                        class="img-fluid blur-up lazyload bg-img" alt="">
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                    <div class="col-sm-4 col-6">
+                                        <label for="chk-ani12"></label>
+                                            <input class="radio_animated" id="chk-ani12" type="radio" name="Radios1">
+                                            <div class="image-box">
+                                                <div class="image">
+                                                    <img src="../assets/images/post/2.jpg"
+                                                        class="img-fluid blur-up lazyload bg-img" alt="">
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                    <div class="col-sm-4 col-6">
+                                        <label for="chk-ani13"> </label>
+                                            <input class="radio_animated" id="chk-ani13" type="radio" name="Radios1">
+                                            <div class="image-box">
+                                                <div class="image">
+                                                    <img src="../assets/images/post/3.jpg"
+                                                        class="img-fluid blur-up lazyload bg-img" alt="">
+                                                </div>
+                                            </div>
+                                       
+                                    </div>
+                                    <div class="col-sm-4 col-6">
+                                        <label for="chk-ani14"></label>
+                                            <input class="radio_animated" id="chk-ani14" type="radio" name="Radios1">
+                                            <div class="image-box">
+                                                <div class="image">
+                                                    <img src="../assets/images/post/4.jpg"
+                                                        class="img-fluid blur-up lazyload bg-img" alt="">
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                    <div class="col-sm-4 col-6">
+                                        <label for="chk-ani15"></label>
+                                            <input class="radio_animated" id="chk-ani15" type="radio" name="Radios1">
+                                            <div class="image-box">
+                                                <div class="image">
+                                                    <img src="../assets/images/post/5.jpg"
+                                                        class="img-fluid blur-up lazyload bg-img" alt="">
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                    <div class="col-sm-4 col-6">
+                                        <label for="chk-ani16"></label>
+                                            <input class="radio_animated" id="chk-ani16" type="radio" name="Radios1">
+                                            <div class="image-box">
+                                                <div class="image">
+                                                    <img src="../assets/images/post/6.jpg"
+                                                        class="img-fluid blur-up lazyload bg-img" alt="">
+                                                </div>
+                                            </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" data-bs-dismiss="modal" class="btn btn-solid">choose Photo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- choose photo modal end -->
+
+
+    <!-- theme setting -->
+    <div class="theme-settings">
+        <div class="rtl-btn">
+            <div class="theme-layout-version">RTL</div>
+        </div>
+        <div class="rtl-btn h-cls">
+            <div class="dark-button">Dark</div>
+        </div>
+        <div class="pages">
+            <a href="javascript:void(0)" onclick="openSetting()">
+                <div class="theme-setting-sidebar" id="setting-icon">
+                    <div>
+                        pages
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="setting_box" class="setting-box">
+        <a href="javascript:void(0)" class="overlay" onclick="closeSetting()"></a>
+        <div class="setting_box_body">
+            <div onclick="closeSetting()">
+                <div class="sidebar-back text-left"><i class="fa fa-angle-left pe-2" aria-hidden="true"></i> Back</div>
+            </div>
+            <div class="setting-body">
+                <div class="setting-title">
+                    <h4>Newsfeed Layout</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/1.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 1</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/2.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 2</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-2.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/3.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 3</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-3.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/4.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 4</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-4.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/5.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 5</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-5.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/6.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 6</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-6.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/7.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 7</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-7.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/8.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 8</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-8.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/9.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 9</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-9.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/10.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 10</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-10.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/11.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 11</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-11.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/newsfeed/12.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>style 12</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('index-12.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Profile Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/1.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>timeline</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/2.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>about</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-about.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/3.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>friends</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-friends.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/4.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>gallery</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-gallery.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/5.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>acitivity feed</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-activityfeed.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/6.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>tab</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile-tab.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/profile/7.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>friend profile</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('profile(friend).html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Favourite Page</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/1.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>page listing </h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('page-list.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/2.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>page home</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-page.html')"
+                                            class="btn new-tab-btn">Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/3.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>about</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-about.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/4.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>review</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-reviews.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/5.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>gallery</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('single-gallery.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/favourite/6.jpg" class="img-fluid blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>tab</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('page-tab.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>other pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/events.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>event & calendar</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('event.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/birthday.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Birthday</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('birthday.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/weather.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>weather</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('weather.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/music.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Music</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('music.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/events.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>games</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('games.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/login.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>login </h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('login.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/register.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>register</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('register.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/help.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>help & support</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('help-support.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/messanger.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>messanger</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('messanger.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/setting.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>setting</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('settings.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/other/help.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>help article</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('help-article.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Company Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/home.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Home</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('company-home.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/about.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>About</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('about-us.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/blog.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Blog</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('blog.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/blog-details.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Blog details</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('blog-details.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/faq.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>FAQ</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('faq.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/career.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Career</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('career.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/career-details.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>Career details</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('career-details.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/coming-soon.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>coming soon</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('coming-soon.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/company/404.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>404</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('404.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-title">
+                    <h4>Element Pages</h4>
+                </div>
+                <div class="setting-contant">
+                    <div class="row demo-section">
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/typography.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>typography</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('typography.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/widget.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>sidebar widgets</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('sidebar-widgets.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/calendar.jpg"
+                                        class="bg-img blur-up lazyload" alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>calender</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-event-calendar.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/map.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>maps</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-map.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/icons.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>icons</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('icons.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/modal.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>modal</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-modal.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 text-center demo-effects">
+                            <div class="set-position">
+                                <div class="layout-container">
+                                    <img src="../assets/images/demo/element/buttons.jpg" class="bg-img blur-up lazyload"
+                                        alt="">
+                                </div>
+                                <div class="demo-text">
+                                    <h4>buttons</h4>
+                                    <div class="btn-group demo-btn" role="group" aria-label="Basic example"> <button
+                                            type="button" onClick="window.open('element-button.html')"
+                                            class="btn new-tab-btn">Preview</button> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy_btn">
+                    <a href="#" target="_blank" class="btn btn-block btn-solid ">purchase Friendbook now!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- theme setting -->
+
+
+    <!-- latest jquery-->
+    <script src="../assets/js/jquery-3.6.0.min.js "></script>
+
+    <!-- popper js-->
+    <script src="../assets/js/popper.min.js "></script>
+
+    <!-- slick slider js -->
+    <script src="../assets/js/slick.js"></script>
+    <script src="../assets/js/custom-slick.js"></script>
+
+    <!-- feather icon js-->
+    <script src="../assets/js/feather.min.js "></script>
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/bootstrap.js "></script>
+
+    <!-- lazyload js-->
+    <script src="../assets/js/lazysizes.min.js"></script>
+
+    <!-- theme setting js-->
+    <script src="../assets/js/theme-setting.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js "></script>
+
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+
+</html>
